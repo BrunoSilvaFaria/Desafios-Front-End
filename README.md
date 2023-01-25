@@ -5,7 +5,7 @@ Lista de desafios do site [FrontEnd Menthor](https://www.frontendmentor.io/) com
 
 
 <a name="contéudo"> 
-### Contéudo
+##Contéudo
 </a>
 
 
@@ -16,30 +16,29 @@ Lista de desafios do site [FrontEnd Menthor](https://www.frontendmentor.io/) com
 
 
 <a name="iniciante"> 
-## Iniciante 
+##Iniciante 
 </a>
 
 
 |  Repositório                                                                                                                                   |
 |:----------------------------------------------------------------------------------------------------------------------------------------------:|
 |[Product preview card component](https://github.com/BrunoSilvaFaria/Desafios-Front-End-Menthor/tree/main/Newbie/product-preview-card-component) |
-| [Interactive rating component](link_repositorio)|
-| [QR Code Component](link_repositorio) |
-| [NFT preview card component](link_repositorio)|
-| [Order summary component](link_repositorio)  |
-| [Stats preview card component](link_repositorio)|
-| [3-column preview card component](link_repositorio) |
-| [Profile card component](link_repositorio) |
-| [FAQ accordion card](link_repositorio)|
-| [Social proof section](link_repositorio) |
-| [Article preview component](link_repositorio)|
-| [Four card feature section](link_repositorio)|
-| [Base Apparel coming soon page](link_repositorio) |
-| [Intro component with sign-up form](link_repositorio) |
-| [Single price grid component](link_repositorio) |
-| [Ping single column coming soon page](link_repositorio) |
-| [Huddle landing page with a single introductory section](link_repositorio) |
-| [nomeRepositorio](link_repositorio) |                                                                                                                                               
+| [Interactive rating component](https://github.com/BrunoSilvaFaria/Desafios-Front-End-Menthor/tree/main/Newbie/interactive-rating-component-main)|
+| [QR Code Component](https://github.com/BrunoSilvaFaria/Desafios-Front-End-Menthor/tree/main/Newbie/qr-code-component-main) |
+| [NFT preview card component](https://github.com/BrunoSilvaFaria/Desafios-Front-End-Menthor/tree/main/Newbie/nft-preview-card-component-main)|
+| [Order summary component](https://github.com/BrunoSilvaFaria/Desafios-Front-End-Menthor/tree/main/)  |
+| [Stats preview card component](https://github.com/BrunoSilvaFaria/Desafios-Front-End-Menthor/tree/main/)|
+| [3-column preview card component](https://github.com/BrunoSilvaFaria/Desafios-Front-End-Menthor/tree/main/) |
+| [Profile card component](https://github.com/BrunoSilvaFaria/Desafios-Front-End-Menthor/tree/main/) |
+| [FAQ accordion card](https://github.com/BrunoSilvaFaria/Desafios-Front-End-Menthor/tree/main/)|
+| [Social proof section](https://github.com/BrunoSilvaFaria/Desafios-Front-End-Menthor/tree/main/) |
+| [Article preview component](https://github.com/BrunoSilvaFaria/Desafios-Front-End-Menthor/tree/main/)|
+| [Four card feature section](https://github.com/BrunoSilvaFaria/Desafios-Front-End-Menthor/tree/main/)|
+| [Base Apparel coming soon page](https://github.com/BrunoSilvaFaria/Desafios-Front-End-Menthor/tree/main/) |
+| [Intro component with sign-up form](https://github.com/BrunoSilvaFaria/Desafios-Front-End-Menthor/tree/main/) |
+| [Single price grid component](https://github.com/BrunoSilvaFaria/Desafios-Front-End-Menthor/tree/main/) |
+| [Ping single column coming soon page](https://github.com/BrunoSilvaFaria/Desafios-Front-End-Menthor/tree/main/) |
+| [Huddle landing page with a single introductory section](https://github.com/BrunoSilvaFaria/Desafios-Front-End-Menthor/tree/main/) |
 
 
 [Acessar contéudo](#contéudo)
