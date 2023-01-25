@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <picture class="perfume__imagem__conteiner borda">
+     <source media="(min-width:700px)" srcset="./images/image-product-desktop.jpg" class="perfume__imagem__item">
+     <source media="(min-width:330px)" srcset="./images/image-product-mobile.jpg" class="perfume__imagem__item">
+     <img src="./images/image-product-mobile.jpg" alt="Foto do produto" class="perfume__imagem__item">
+    </picture>
+    <div class="alinhamento__main borda">
+      <div class="alinhamento__descricao">
+        <section class="alinhamento__descricao">
+          <h2 class="subtitulo">Perfume</h2>
+          <h1 class="perfume__nome texto__destaque">
+            Gabrielle Essence
+            Eau De Parfum
+          </h1>
+          <p class="perfume__descricao">
+            A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+        </section>
+
+        <section>
+          <div class="alinhamento__flex">
+            <p class="preco__atual texto__destaque">$149.99</p>
+            <span class="preco__antigo">$169.99</span>
+          </div>
+        </section>
+
+        <div class="alinhamento__flex button__conteiner borda">
+          <img src="./images/icon-cart.svg" alt="Icone de carrinho"
+            class="button__image">
+          <button type="button" name="button" class="button">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+<!--   <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
