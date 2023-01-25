@@ -5,7 +5,7 @@ Lista de desafios do site [FrontEnd Menthor](https://www.frontendmentor.io/) com
 
 
 <a name="contéudo"> 
-##Contéudo
+#Contéudo
 </a>
 
 
@@ -16,7 +16,7 @@ Lista de desafios do site [FrontEnd Menthor](https://www.frontendmentor.io/) com
 
 
 <a name="iniciante"> 
-##Iniciante 
+#Iniciante 
 </a>
 
 
@@ -43,7 +43,7 @@ Lista de desafios do site [FrontEnd Menthor](https://www.frontendmentor.io/) com
 [Acessar contéudo](#contéudo)
 
 <a name="junior"> 
-## Junior
+# Junior
 </a>
 
 Em breve...
@@ -52,7 +52,7 @@ Em breve...
 [Acessar contéudo](#contéudo)
 
 <a name="intermediário"> 
-## Intermediário
+# Intermediário
 </a>
 
 Em breve...
@@ -60,7 +60,7 @@ Em breve...
 [Acessar contéudo](#contéudo)
 
 <a name="avançado"> 
-## Avançado
+# Avançado
 </a>
 
 Em breve...
