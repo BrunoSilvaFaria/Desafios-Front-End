@@ -21,7 +21,7 @@ Lista de desafios do site [FrontEnd Menthor](https://www.frontendmentor.io/) com
 
 | Repósitorio | Demo                                                                         |
 | :-: | --------------------------------------------------------------------------------------------------------------------------- | 
-| [Product preview card component](link_repositorio) |  [Demo](link_demo) ||
+| [Product preview card component](https://github.com/BrunoSilvaFaria/Desafios-Front-End-Menthor/tree/main/Newbie/product-preview-card-component) |  [Demo](https://brunosilvafaria.github.io/Newbie/product-preview-card-component) ||
 | [Interactive rating component](link_repositorio) |  [Demo](link_demo) ||
 | [QR Code Component](link_repositorio) ||
 | [NFT preview card component](link_repositorio) |  [Demo](link_demo) ||
