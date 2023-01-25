@@ -23,9 +23,9 @@ Lista de desafios do site [FrontEnd Menthor](https://www.frontendmentor.io/) com
 |  Repositório                                                                                                                                   |
 |:----------------------------------------------------------------------------------------------------------------------------------------------:|
 |[Product preview card component](https://github.com/BrunoSilvaFaria/Desafios-Front-End-Menthor/tree/main/Newbie/product-preview-card-component) |
-| [Interactive rating component](https://github.com/BrunoSilvaFaria/Desafios-Front-End-Menthor/tree/main/Newbie/interactive-rating-component-main)|
+| [Interactive rating component](https://github.com/BrunoSilvaFaria/Desafios-Front-End-Menthor/tree/main/Newbie/interactive-rating-component)|
 | [QR Code Component](https://github.com/BrunoSilvaFaria/Desafios-Front-End-Menthor/tree/main/Newbie/qr-code-component-main) |
-| [NFT preview card component](https://github.com/BrunoSilvaFaria/Desafios-Front-End-Menthor/tree/main/Newbie/nft-preview-card-component-main)|
+| [NFT preview card component](https://github.com/BrunoSilvaFaria/Desafios-Front-End-Menthor/tree/main/Newbie/nft-preview-card-component)|
 | [Order summary component](https://github.com/BrunoSilvaFaria/Desafios-Front-End-Menthor/tree/main/Newbie/order-summary-component-)  |
 | [Stats preview card component](https://github.com/BrunoSilvaFaria/Desafios-Front-End-Menthor/tree/main/Newbie/stats-preview-card-component)|
 | [3-column preview card component](https://github.com/BrunoSilvaFaria/Desafios-Front-End-Menthor/tree/main/Newbie/3-column-preview-card-component) |
