@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200; }
+
+body {
+  background: #fafafa; }
+
+main {
+  width: 85%;
+  margin: auto;
+  margin-top: 50px; }
+
+.header {
+  margin: auto; }
+
+.header__titulo {
+  color: #4c4e61;
+  font-size: 25px;
+  line-height: 35px;
+  margin-bottom: 20px; }
+
+.header__titulo--destaque {
+  font-weight: 600; }
+
+.header__paragrafo {
+  color: #a3a5ae;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 70px;
+  text-align: center; }
+
+.card__conteiner {
+  height: 230px;
+  width: 320px;
+  background: white;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  box-shadow: 0 10px 20px 0 rgba(76, 78, 97, 0.3); }
+  .card__conteiner .card__tittulo {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #4c4e61;
+    font-weight: 600; }
+  .card__conteiner .card__paragrafo {
+    font-size: 15px;
+    color: #a3a5ae;
+    font-weight: 400; }
+  .card__conteiner .card__tittulo, .card__conteiner .card__paragrafo {
+    padding-left: 20px; }
+  .card__conteiner .card__img {
+    margin-top: 40px;
+    margin-left: 230px;
+    width: 60px;
+    height: 60px; }
+
+.card__borda--supervisor {
+  border-top: 4px solid #45d3d3; }
+
+.card__borda--team_builder {
+  border-top: 4px solid #ea5353; }
+
+.card__borda--karma {
+  border-top: 4px solid #fcaf4a; }
+
+.card__borda--calculator {
+  border-top: 4px solid #549ef2; }
+
+@media (min-width: 600px) {
+  main {
+    width: 90%; }
+
+  .header__titulo {
+    font-size: 30px;
+    line-height: 40px;
+    width: 400px;
+    margin: auto; }
+
+  .header__paragrafo {
+    width: 550px;
+    margin: 20px auto 50px auto; } }
+@media (min-width: 1300px) {
+  .cards__conteiner {
+    width: 90%;
+    height: 530px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+
+  .card__borda--supervisor {
+    order: 1; }
+
+  .card__borda--team_builder {
+    order: 2; }
+
+  .card__borda--karma {
+    order: 4;
+    margin: auto auto 40px auto; }
+
+  .card__borda--calculator {
+    order: 3; }
+
+  .card__borda--supervisor, .card__borda--calculator {
+    position: relative;
+    top: 150px; } }
+
+/*# sourceMappingURL=main.css.map */

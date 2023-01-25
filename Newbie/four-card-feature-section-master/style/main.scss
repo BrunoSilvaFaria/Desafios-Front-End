@@ -1,0 +1,133 @@
+// === Reset ===
+*{
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+}
+// === Body ===
+body{
+  background: hsl(0, 0%, 98%);
+}
+// === Main ===
+main{
+  width: 85%;
+  margin: auto;
+  margin-top: 50px;
+}
+// === Header ===
+.header{
+  margin: auto;
+}
+.header__titulo{
+  color: hsl(234, 12%, 34%);
+  font-size: 25px;
+  line-height: 35px;
+  margin-bottom: 20px;
+}
+.header__titulo--destaque{
+  font-weight: 600;
+}
+
+.header__paragrafo{
+  color: hsl(229, 6%, 66%);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+// === Card ===
+.card__conteiner{
+  height: 230px;
+  width: 320px;
+  background: white;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  box-shadow: 0 10px 20px 0 hsla(234, 12%, 34%, 0.3);
+  .card__tittulo{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+  }
+  .card__paragrafo{
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+  }
+    .card__tittulo, .card__paragrafo{
+      padding-left: 20px;
+    }
+
+  .card__img{
+    margin-top: 40px;
+    margin-left: 230px;
+    width: 60px;
+    height: 60px;
+  }
+}
+  // === Card Borda ===
+  .card__borda--supervisor{
+    border-top: 4px solid hsl(180, 62%, 55%);
+  }
+  .card__borda--team_builder{
+    border-top: 4px solid hsl(0, 78%, 62%);
+  }
+  .card__borda--karma{
+    border-top: 4px solid hsl(34, 97%, 64%);
+  }
+  .card__borda--calculator{
+    border-top: 4px solid hsl(212, 86%, 64%);
+  }
+
+  // === Media Query ===
+  @media(min-width: 600px){
+  main{
+    width: 90%;
+  }
+  .header__titulo{
+    font-size: 30px;
+    line-height: 40px;
+    width: 400px;
+    margin: auto;
+    // background: red;
+  }
+
+  .header__paragrafo{
+    width: 550px;
+    margin: 20px auto 50px auto;
+  }
+}
+
+@media (min-width: 1300px){
+  .cards__conteiner{
+    width: 90%;
+    height: 530px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .card__borda--supervisor{
+    order: 1;
+  }
+  .card__borda--team_builder{
+    order: 2;
+  }
+  .card__borda--karma{
+    order: 4;
+    margin: auto auto 40px auto;
+  }
+  .card__borda--calculator{
+    order: 3;
+  }
+  .card__borda--supervisor, .card__borda--calculator{
+    position: relative;
+    top: 150px;
+  }
+}

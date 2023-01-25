@@ -1,0 +1,96 @@
+// === RESET ===
+*{
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+}
+// === Variaveis ===
+// --- Cores ---
+$title : #111133;
+$icon : #ff7755;
+$question : #444455;
+$anwsern : #777788;
+$divider : #eeeeee;
+
+// === Title ===
+.title{
+  color: $title;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom:  5px;
+}
+
+// === Body ===
+body{
+  background: #ad68e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+// === Main ===
+// main{
+//   height: 450px;
+//   background: white;
+// }
+main{
+  // margin: 150px auto auto auto;
+  height: 340px;
+  width: 330px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.3);
+}
+main::before{
+    content: '';
+    background: url("./images/illustration-woman-online-mobile.svg");
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+// ===Background===
+.img{
+  width: 330px;
+}
+// === Question Conteiner ===
+.question__conteiner{
+  width: 90%;
+  margin: auto;
+  // ===Question question Conteiner ===
+  .question__question-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .question__question{
+      color: $question;
+      width: 85%;
+      margin-bottom: 15px;
+      margin-top: 15px;
+      .question__question:hover{
+        cursor: pointer;
+      }
+    }
+    .icon-question{
+      color: $icon;
+      font-weight: 700;
+    }
+  }
+  // === Question Awsern ===
+  .question__anwsern{
+    color: $anwsern;
+    display: none;
+    margin-bottom: 15px;
+  }
+
+  // === Divider ===
+  .divider{
+    border: 1px solid $divider;
+  }
+}
