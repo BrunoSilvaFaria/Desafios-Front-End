@@ -1,0 +1,81 @@
+* {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: 0;
+  list-style: none; }
+
+body {
+  background: #19A2AE; }
+
+.main {
+  border-radius: 15px;
+  margin-left: -45%;
+  margin-top: -185px;
+  height: 370px;
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #F2F2F2; }
+
+.section-perfil .header-perfil {
+  position: relative;
+  bottom: 20px;
+  height: 55px; }
+  .section-perfil .header-perfil .header-perfil__info {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .section-perfil .header-perfil .header-perfil__info .header-perfil__nome {
+      color: #2D3248;
+      margin-right: 10px; }
+    .section-perfil .header-perfil .header-perfil__info .header-perfil__idade {
+      color: #6A6F81; }
+  .section-perfil .header-perfil .header-perfil__cidade {
+    color: #6A6F81;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 5px; }
+.section-perfil hr {
+  border: 1px solid #e8e8e8; }
+
+.foto-capa {
+  height: 100px; }
+  .foto-capa .foto-capa-item {
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+    height: 100px; }
+
+.foto-perfil {
+  margin: auto;
+  width: 96px;
+  height: 96px;
+  position: relative;
+  bottom: 50px; }
+  .foto-perfil .foto-perfil-item {
+    border-radius: 50%;
+    border: 5px solid #fff; }
+
+.section-info {
+  margin-top: 30px; }
+  .section-info .section-info__list {
+    display: flex;
+    justify-content: space-around;
+    text-align: center; }
+    .section-info .section-info__list .section-info__list-item {
+      color: #2D3248; }
+    .section-info .section-info__list .section-info__list-quantidade {
+      color: #6A6F81;
+      font-size: 16px; }
+
+@media (min-width: 400px) {
+  .main {
+    width: 340px;
+    margin-left: -170px; } }
+
+/*# sourceMappingURL=main.css.map */

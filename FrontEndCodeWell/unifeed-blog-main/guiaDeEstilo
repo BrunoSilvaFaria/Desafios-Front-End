@@ -1,0 +1,18 @@
+Tipografia:
+- Titulo: 
+	Tamanho: 1.8em
+	Cor: #000
+- Paragrafo: 
+	Tamanho: 1em
+	Cor: #656565
+- Nome: 
+	Tamanho: 0.7em
+	Cor: #000
+- Cargo: 
+	Tamanho: 0.8
+	Cor: #656565
+
+Espaçamento:
+	35, 30, 20, 15 e 10px.
+
+Menu: 60px de altura

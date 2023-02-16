@@ -1,0 +1,101 @@
+/* === RESET === */
+*{
+  /* --- estilos --- */
+  background: none;
+  border: none;
+  /* --- tipografia --- */
+  color: #fff;
+  text-decoration: none;
+  /* --- display --- */
+  margin: 0;
+  padding: 0;
+}
+
+/* === BODY === */
+body{
+  background: red;
+  width: 100%;
+  height: 100vh;
+}
+/* === main === */
+main{
+  /* --- display --- */
+  margin: auto;
+  /* --- tamanho--- */
+  width: 335px;
+}
+/* === section principal === */
+.section__principal{
+  /* --- tipografia --- */
+  text-align: center;
+  /* --- tamanho --- */
+  height: 270px;
+  width: 320px;
+}
+.titulo{
+  /* --- display --- */
+  margin: 100px 0 30px 0;
+}
+.paragrafo{
+  /* --- tipografia --- */
+  line-height: 1.5em;
+}
+
+/* === Card Preço === */
+.card__preço{
+  /* --- estilos --- */
+  background: blue;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5);
+  /* --- display --- */
+  margin-bottom: 10px;
+  /* --- tamanho --- */
+  height: 95px;
+  width: 335px;
+}
+
+/* === Card Form === */
+.card__form{
+  /* --- estilos --- */
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5);
+  /* --- tamanho --- */
+  height: 445px;
+  width: 335px;
+}
+form{
+  /* --- display --- */
+  margin: auto;
+  /* --- tamanho --- */
+  width: 280px;
+}
+input{
+  /* --- estilos --- */
+  border: 1px solid #f4f3f5;
+  border-radius: 5px;
+  /* --- tipografia--- */
+  color: #000;
+  /* --- display --- */
+  padding-left: 20px;
+  margin-bottom: 15px;
+  /* --- tamanho --- */
+  height: 65px;
+  width: 260px;
+}
+input:first-child{
+  margin-top: 15px;
+}
+.btn__submit{
+  /* --- estilos --- */
+  background: green;
+  /* --- tamanho --- */
+  height: 60px;
+  width: 280px;
+}
+
+.aviso{
+  /* --- tipografia --- */
+  color: #000;
+  font-size: 12px;
+}

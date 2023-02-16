@@ -1,0 +1,261 @@
+/* === RESET === */
+* {
+    /* --- Estilos --- */
+    background: none;
+    border: none;
+    color: #616161;
+    font-family: 'Inter', sans-serif;
+    /* --- Display --- */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fbf8f3;
+}
+
+/* === Alinhamento === */
+.alinhamento__body {
+    /* --- Display --- */
+    margin: auto;
+    /* --- Tamanho --- */
+    width: 90%;
+}
+
+/* === Flex === */
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+/* === Card === */
+.card {
+    /*     --- Diplay --- */
+    margin: auto;
+    /*     --- Tamanho --- */
+    width: 90%;
+}
+
+.card--espacamento {
+    /*     --- Estilos --- */
+    background: #fff;
+    border-radius: 5px;
+    /*     --- Display --- */
+    margin: 25px auto;
+}
+
+/* ========= // ======== // ======== */
+
+/* === Menu === */
+.menu {
+    /* --- Display --- */
+    justify-content: space-between;
+    /* --- Tamanho --- */
+    height: 100px;
+}
+
+.menu__icone {
+    height: 24px;
+}
+
+/* ======= // ======== // ======  */
+/* === Hero === */
+.hero {
+    margin-bottom: 40px;
+}
+
+.hero img {
+    width: 100%;
+}
+
+/* ======= // ======== // ======  */
+/* --- Section Intro --- */
+.section__intro {}
+
+.section__intro h1 {
+    margin-bottom: 10px;
+}
+
+.section__intro button {
+    margin: 20px 0 20px 0;
+}
+
+.section__intro a {
+    display: block;
+}
+
+.avatar__lista {
+    list-style: none;
+    /*     display: flex; */
+}
+
+.avatar__lista img {
+    height: 60px;
+    /*     position: absolute; */
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+
+/* ======= // ======== // ======  */
+/* --- Section Produtos --- */
+.section__produtos {
+    margin-top: 80px;
+}
+
+.card__produtos {
+    /*     --- Estilos --- */
+    border: 2px solid #c4c4c4;
+}
+
+.produtos--img {
+    display: inline-block;
+    margin: 20px auto;
+}
+
+.paragrafo--produtos {
+    margin: 20px auto 30px auto;
+}
+
+.paragrafo--avaliacao{
+        margin: 15px auto 20px auto;
+}
+
+/* ======= // ======== // ======  */
+/* --- Section Avaliação --- */
+.section__avaliacao {
+    background: #d7f5f5;
+}
+
+.perfil,
+footer {
+    justify-content: space-between;
+}
+
+.perfil {
+    /*     justify-content: space-between; */
+}
+
+.card__avaliação {
+    /*     --- Diplay --- */
+    margin: auto;
+    padding-bottom: 20px;
+    /*     --- Tamanho --- */
+    width: 90%;
+}
+
+.perfil__avatar {
+    margin-top: 30px;
+}
+
+.perfil--avatar__img {
+    margin-right: 10px;
+}
+
+.perfil--info {}
+
+.perfil--nome {}
+
+.perfil--avatar {}
+
+.curtida__quantidade{
+    margin-left: 5px;
+    font-size: 1.1em;
+}
+/* ======= // ======== // ======  */
+/* === Section Plano === */
+.section__plano{
+}
+.section__plano__header{
+    border-bottom: 1px solid #d3d2d2;
+}
+
+.plano__lista__conteiner{
+    height: 175px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #d3d2d2;
+    
+}
+.plano__lista{
+    list-style-image: url("./Assets/Checkmark.svg");
+    margin-top: 20px;
+}
+.plano__lista--item{
+    width: 90%;
+}
+/* ======= // ======== // ======  */
+/* === Button === */
+.button {
+    /* --- Estilos --- */
+    background: #1da1f2;
+    border-radius: 5px;
+    /* --- Display --- */
+    padding: 15px;
+    justify-content: center;
+    /* --- Tamanho --- */
+    width: 100%;
+}
+
+.button img {
+    margin-right: 10px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+/* ======= // ======== // ======  */
+/* === Tipografia === */
+
+.button {
+    color: #f1f1f1;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.link {
+    color: #207998;
+    font-size: 1.3em;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+}
+
+.logo {
+    color: #2f7ef4;
+    font-size: 1.9em;
+}
+
+.paragrafo {
+    color: #616161;
+    font-size: 0, 95em;
+    line-height: 1.5em;
+}
+
+.paragrafo--produtos {
+    line-height: 1.8em;
+}
+
+.subtitulo {
+    font-size: 1.2em;
+}
+
+.section__plano__titulo {
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+.section__plano__valor {
+    color: black;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.section__plano__preco {
+    font-size: 1.5em;
+}
+
+.titulo {
+    font-size: 1.9em;
+    line-height: 1.4em;
+}

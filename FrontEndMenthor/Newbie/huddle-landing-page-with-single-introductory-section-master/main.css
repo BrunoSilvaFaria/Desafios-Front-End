@@ -1,0 +1,112 @@
+/* === RESET === */
+* {
+  background: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* === BODY === */
+body {
+  background: url("./images/bg-mobile.svg") no-repeat, #674bb1;
+}
+
+/* === MAIN === */
+main {
+  width: 85%;
+  /* margin-top: 40px; */
+  margin: auto;
+}
+
+/* === Logo === */
+.logo {
+  height: 30px;
+  width: 125px;
+  margin: 35px auto 50px auto;
+}
+
+/* === HERO === */
+.hero__conteiner {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  /* margin-top: 55px; */
+
+}
+
+/* === INFO === */
+.info__conterinet {
+  text-align: center;
+}
+
+.info__title {
+  color: #fff;
+  margin-top: 55px;
+  margin-bottom: 10px;
+}
+
+.info__para {
+  color: #ddddff;
+}
+
+/* === BUTTON === */
+button {
+  background: #fff;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  color: #665599;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding: 10px;
+  width: 200px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* === REDES FOOTER === */
+.redes__conteiner {
+  margin: auto;
+}
+
+.redes__display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.redes__item {
+  border-radius: 50%;
+  border: 1px solid #fff;
+  margin-left: 15px;
+  padding: 5px;
+}
+
+/* === Media Query === */
+@media (min-width: 1000px) {
+  .alinhamento__main {
+    display: flex;
+  }
+
+  .hero__conteiner{
+    margin-right: 30px;
+  }
+  .info__conterinet {
+    width: 750px;
+    text-align: left;
+  }
+}

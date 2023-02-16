@@ -1,0 +1,181 @@
+// === RESET ===
+*{
+  font-family: 'Spartan', sans-serif;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: none;
+  border: none;
+}
+// === Cores ===
+$card_color : #552255;
+$cor2 : #ee66aa;
+$cor3 : #997799;
+$texto__destaque_maior : #f7f2f7;
+$cor5 : #fff;
+
+// === Section Main ===
+.section__hero{
+  text-align: center;
+  margin: auto;
+  margin-top: 70px;
+  width: 90%;
+  .title__main{
+    color: $card_color;
+    font-size: 32px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+  .paragraph__main{
+    color: $cor3;
+    margin-bottom: 30px;
+  }
+}
+// === Stars ===
+.star__conteiner{
+  margin: auto;
+  margin-bottom: 15px;
+  height: 75px;
+  width: 90%;
+  background: $texto__destaque_maior;
+  border-radius: 10px;
+  .star__conteiner__div{
+    text-align: center;
+    .stars__icon{
+      img{
+        width: 15px;
+        height: 15px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+      }
+    }
+    .star__paragraph{
+      color: $card_color;
+      font-size: 13px;
+      font-weight: 700;
+      // margin-top: 15px;
+    }
+  }
+
+}
+// === Section Relato ===
+.section__relato_conteiner{
+  margin: 15px auto;
+  height: 250px;
+  width: 90%;
+  background: $card_color;
+  border-radius: 10px;
+  .section__relato_conteiner__div{
+    .section__header{
+      display: flex;
+      align-items: center;
+      padding-top: 40px;
+      margin: auto;
+      width: 80%;
+      .section__relato_foto{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+      }
+      .section__header_div{
+        margin-left: 20px;
+        .section__header_nome{
+          color: $texto__destaque_maior;
+          margin-bottom: 5px;
+        }
+        .section__header_info{
+          color: $cor2;
+          font-size: 15px;
+        }
+      }
+    }
+    .secticion__relato_paragrafo{
+      color: $texto__destaque_maior;
+      font-size: 14px;
+      font-weight: 500;
+      margin: auto;
+      margin-top: 30px;
+      width: 80%;
+
+    }
+  }
+}
+
+// === Media Query ===
+@media (min-width: 800px){
+  .section__main{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 80px;
+  }
+  // === Section Main ===
+  .section__hero{
+    text-align: left;
+    height: 250px;
+    margin: 0;
+    width: 420px;
+    .title__main{
+      margin-bottom: 20px;
+      font-size: 45px;
+      line-height: 47px;
+      width: 400px;
+    }
+    .paragraph__main{
+      font-size: 14px;
+      line-height: 20px;
+      width: 450px;
+    }
+  }
+
+  // === Stars ===
+  .star__conteiner{
+    height: 60px;
+    width: 400px;
+    .star__conteiner__div{
+      display: flex;
+      align-items: center;
+      height: 60px;
+      .stars__icon{
+        margin-left: 20px;
+        img{
+          margin: 0;
+        }
+      }
+      .star__paragraph{
+        margin-left: 20px;
+      }
+    }
+  }
+  .stars__conteiner{
+    width: 460px;
+  }
+  .star__conteiner--1{
+    margin-right: 60px;
+  }
+  .star__conteiner--2{
+    margin-right: 30px;
+  }
+  .star__conteiner--3{
+    margin-left: 60px;
+  }
+}
+
+// === Section Relato ===
+.section__relatos__conteiner{
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+.section__relato_conteiner{
+  height: 250px;
+  width: 315px;
+}
+.section__relato_conteiner--2{
+  margin-top: 25px;
+}
+.section__relato_conteiner--3{
+  margin-top: 35px;
+}
