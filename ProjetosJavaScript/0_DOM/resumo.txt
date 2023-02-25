@@ -1,0 +1,92 @@
+DOM: document object model
+	- Utilizado para manipular conteudo, estilo e estrutura do site.
+	- Arvore node: documento - pai - filho
+
+-> Selecionado elementos:
+	uso: document.
+	* getElementById('id'); // pega o elemento com o id referente;
+	
+	* getElementsByClassName('className');  // pega todos os elementos com a classe referente, transformando-os em um htmlCollection
+
+	* getElementsByTagName('tagName');  // pega todos os elementos com a tag referente, transformando-os em um htmlCollection.
+
+	* querySelector('selector'); // pega o PRIMEIRO elemento com o seletor referente;
+
+	* querySelectorAll('selector'); // pega TODOS os elementos com o seletor referente, transformando-os em um NodeList;
+	 
+-> Estilizando items:
+	style.propriedade = 'valor';
+
+	Ao Manipular "lista de itens", é necessário utilizar um array:
+	for( i = 0; i < item.lenght; i++){
+		style.propriedade = 'valor';
+	}
+
+-> Elementos:
+	const ul = document.querySelector('ul');
+	const li = document.creatElement('li');
+	// Adicionando item / tag:
+	ul.append(li);
+
+	// Modificando texto:
+		innerText; // somente o texto
+		textContent; // texto no editor (identação e espaçamento)
+		innerHtml; // tag html incluida
+			* innerText: é o mais recomendado e usado.
+	// Remover:
+		li.remove();
+
+-> Atributos e classes:
+	Atributos:
+		element.setAttribute('atributo', 'valor');
+		element.removeAttribute('atributo');
+	Classe:
+		classList.add('className');
+		classList.remove('className');
+		classList.contains('className');
+
+-> Percorrendo o dom:
+	Pai:
+		elemento.parentNode;
+		elemento.parentElement;
+
+	Filho:
+		elemento.childNodes;
+		elemento.firstChild;
+		elemento.childNodes[1]; // mais indicado que first.
+		elemento.lastChild;
+		elemento.children;
+		elemento.firstElementChild;
+		elemento.lastElementChild;
+
+	Irmaos (quanto estão no mesmo nivel):
+		elemento.previousSibiling; // primeiro
+		elemento.nextSibiling; // segundo
+
+	Node: é contanto a identação do editor de texto para definir.
+	
+-> Eventos:	
+	Uso:
+		No elemento html:
+			<elemento evento="funcao">
+
+		No JavaScript:
+			elemento.addEventListener('evento', funcao)
+	
+	Target: representa o elemento que recebeu o evento.
+		evento.target = elemento.
+
+	Once: define para uma função ser executada apenas uma vez. sendo um parametro de addEventListener
+		addEventListener(evento, funcao, {once: true})
+
+	PreventDefault: impede o comportamento padrão do elemento / evento
+		evento.preventDefault()
+	
+	Evento delegation: utiliza o "pai" para transmitir o evento para seus filhos - e futuros filhos, evitando repetir código.
+
+	
+
+
+
+
+
