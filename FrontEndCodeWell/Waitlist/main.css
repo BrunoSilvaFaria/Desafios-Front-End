@@ -1,0 +1,248 @@
+* {
+    background: none;
+    border: none;
+    box-sizing: border-box;
+
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+    margin: 0;
+    padding: 0;
+}
+
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* relação 2.3 */
+/* === MAIN === */
+main {
+    background: cyan;
+    border-radius: 5px;
+    height: 840px;
+}
+
+main,
+.main__conteiner {
+    margin: auto;
+    width: 90%;
+}
+
+/* --- MAIN CONTEINER --- */
+.main__conteiner {
+    margin-top: 15px;
+}
+
+/* === MENU ===  */
+.menu__conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: 45px;
+    margin-bottom: 35px;
+}
+
+/* === SECTION INTRO === */
+.section__intro {}
+
+/* --- CARD --- */
+.card {
+    background: purple;
+    border-radius: 30px;
+
+    margin: auto;
+    margin-bottom: 25px;
+
+    height: 58px;
+    width: 285px;
+}
+
+.card p {
+    color: white;
+    margin: auto;
+    padding-top: 6px;
+    width: 250px;
+}
+
+.card a {
+    color: white;
+    font-weight: bold;
+}
+
+/* --- TEXT --- */
+.titulo {
+    text-align: center;
+    font-size: 1.8rem;
+
+    margin: auto;
+    margin-bottom: 20px;
+
+    width: 235px;
+}
+
+.paragrafo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* --- FORM --- */
+form {}
+
+input {
+    background: white;
+    border: 1px solid gray;
+
+    padding-left: 15px;
+}
+
+button {
+    background: purple;
+    color: white;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    margin: 15px auto 25px auto;
+}
+
+input,
+button {
+    border-radius: 5px;
+    height: 50px;
+    width: 290px;
+}
+
+/* --- COMPANIAS --- */
+.companies {}
+
+.subtitulo {
+    font-weight: bold;
+}
+
+.companies__lista {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: 15px;
+}
+
+.companies__lista img {
+    margin-right: 10px;
+}
+
+@media (min-width: 800px) {
+
+    /* relação 1.8 */
+    /* === MAIN === */
+    main {
+        border-radius: 8px;
+        height: 1000px;
+    }
+
+    main,
+    .main__conteiner {
+        margin: auto;
+        width: 90%;
+    }
+
+    /* --- MAIN CONTEINER --- */
+    .main__conteiner {
+        margin-top: 15px;
+    }
+
+    /* === MENU ===  */
+    .menu__conteiner {
+
+        padding-top: 45px;
+        margin-bottom: 35px;
+    }
+
+    /* === SECTION INTRO === */
+    .section__intro {}
+
+    /* --- CARD --- */
+    .card {
+        background: purple;
+        border-radius: 30px;
+
+        margin-bottom: 25px;
+
+        height: 48px;
+        width: 550px;
+    }
+
+    .card p {
+        font-size: 18px;
+        padding-top: 10px;
+        width: 470px;
+    }
+
+    .card a {
+        color: white;
+        font-weight: bold;
+    }
+
+    /* --- TEXT --- */
+    .titulo {
+        font-size: 3.5rem;
+
+        margin-bottom: 5px;
+
+        width: 570px;
+    }
+
+    .paragrafo {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* --- FORM --- */
+    form {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        margin: auto;
+        margin-bottom: 50px;
+
+        width: 580px;
+    }
+
+    input {
+
+        padding-left: 20px;
+        width: 395px;
+    }
+
+    button {
+
+        width: 165px;
+        margin: 0;
+    }
+
+    input,
+    button {
+        font-size: 16px;
+        height: 60px;
+    }
+
+    /* --- COMPANIAS --- */
+    .companies {}
+
+    .subtitulo {
+        font-size: 18px;
+    }
+
+    .companies__lista {
+
+        margin-top: 20px;
+    }
+
+    .companies__lista img {
+        margin-right: 15px;
+    }
+}

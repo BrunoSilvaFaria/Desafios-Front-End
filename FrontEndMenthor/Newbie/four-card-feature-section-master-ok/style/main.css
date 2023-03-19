@@ -1,0 +1,143 @@
+* {
+  background: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: hsl(0, 0%, 98%);
+}
+
+main {
+  margin: auto;
+  margin-top: 50px;
+  width: 90%;
+}
+
+.header {
+  margin: auto;
+}
+
+.header__titulo {
+  color: hsl(234, 12%, 34%);
+  font-size: 25px;
+  line-height: 35px;
+  margin-bottom: 20px;
+}
+
+.header__titulo--destaque {
+  font-weight: 600;
+}
+
+.header__paragrafo {
+  color: hsl(229, 6%, 66%);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.cards__conteiner {
+  margin: auto;
+}
+
+.card__conteiner {
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 10px 20px 0 hsla(234, 12%, 34%, 0.3);
+  margin: auto;
+  margin-bottom: 20px;
+  height: 230px;
+  width: 320px;
+}
+.card__conteiner .card__tittulo {
+  color: hsl(234, 12%, 34%);
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+.card__conteiner .card__paragrafo {
+  color: hsl(229, 6%, 66%);
+  font-size: 15px;
+  font-weight: 400;
+}
+.card__conteiner .card__tittulo, .card__conteiner .card__paragrafo {
+  padding-left: 20px;
+}
+.card__conteiner .card__img {
+  margin-left: 230px;
+  margin-top: 40px;
+  height: 60px;
+  width: 60px;
+}
+
+.card__borda--supervisor {
+  border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.card__borda--team_builder {
+  border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.card__borda--karma {
+  border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.card__borda--calculator {
+  border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+@media (min-width: 600px) {
+  main {
+    width: 90%;
+  }
+  .card__conteiner {
+    margin-bottom: 30px;
+  }
+  .header__titulo {
+    font-size: 30px;
+    line-height: 40px;
+    margin: auto;
+    width: 400px;
+  }
+  .header__paragrafo {
+    margin: 20px auto 50px auto;
+    width: 550px;
+  }
+}
+@media (min-width: 1200px) {
+  .cards__conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    height: 530px;
+    max-width: 1200px;
+    width: 90%;
+  }
+  .card__conteiner {
+    margin-bottom: 0;
+  }
+  .card__borda--supervisor {
+    order: 1;
+  }
+  .card__borda--team_builder {
+    order: 2;
+  }
+  .card__borda--karma {
+    order: 4;
+    margin: auto auto 40px auto;
+  }
+  .card__borda--calculator {
+    order: 3;
+  }
+  .card__borda--supervisor, .card__borda--calculator {
+    position: relative;
+    top: 150px;
+  }
+}/*# sourceMappingURL=main.css.map */

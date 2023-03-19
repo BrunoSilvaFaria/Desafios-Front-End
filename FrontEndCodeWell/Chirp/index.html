@@ -13,6 +13,9 @@
 </head>
 
 <body>
+    <!-- <div class="alinhamento__body">
+
+    </div> -->
     <div class="alinhamento__body">
         <header class="menu flex">
             <h1 class="logo">Chirp.</h1>
@@ -65,6 +68,10 @@
                 <li>
                     <img src="./Assets/userAvatar02.svg" alt="Foto de Avatar">
                 </li>
+
+                <li>
+                    <img src="./Assets/userAvatar01.svg" alt="Foto de Avatar">
+                </li>
             </ul>
             <footer>
                 <p>
@@ -72,8 +79,10 @@
                 </p>
             </footer>
         </section>
+    </div>
 
-        <section class="section__produtos">
+    <section class="section__produtos">
+        <div class="alinhamento__body">
             <header>
                 <h1 class="titulo">
                     Features that help you Tweet smarter.
@@ -92,7 +101,7 @@
                     </p>
                 </div>
             </section>
-            <section class="card__produtos">
+            <section class="card__produtos card--espacamento">
                 <div class="card">
                     <span class="produtos--img">🙂</span>
                     <h2 class="subtitulo">
@@ -131,9 +140,11 @@
                     </p>
                 </div>
             </section>
-        </section>
+        </div>
+    </section>
 
-        <section class="section__avaliacao">
+    <div class="section__avaliacao--bg">
+        <section class="section__avaliacao alinhamento__body">
             <header>
                 <h1 class="titulo">
                     What our customers say
@@ -192,7 +203,8 @@
                     </div>
 
                     <p class="paragrafo paragrafo--avaliacao">
-                        I initially started using Chirp to support the co-founder as I personally knew him, but after
+                        I initially started using Chirp to support the co-founder as I personally knew him, but
+                        after
                         having tried it out for a
                         few weeks, I can genuinely say this changed my Twitter game. </p>
                     <footer class="flex">
@@ -243,8 +255,10 @@
                 </div>
             </section>
         </section>
+    </div>
 
-        <section class="section__plano">
+    <section class="section__plano">
+        <div class="alinhamento__body">
             <h1 class="titulo">
                 One simple price plan.
             </h1>
@@ -253,49 +267,52 @@
                 Start growing your Twitter account by analyzing your follower's patterns.
             </p>
 
-            <section>
-                <header class="section__plano__header">
-                    <h1 class="section__plano__titulo">
-                        Monthly
-                    </h1>
-                    <p class="section__plano__preco">
-                        <span class="section__plano__valor">$9</span>/mo
-                    </p>
-                </header>
-                <section>
-                    <ul class="plano__lista__conteiner">
-                        <li class="plano__lista">
-                            <p class="plano__lista--item">
-                                Unlimited* scheduled tweets and threads
-                            </p>
-                        </li>
-                        <li class="plano__lista">
-                            <p class="plano__lista--item">
-                                Schedule up to 3 weeks in advance.
-                            </p>
-                        </li>
-                        <li class="plano__lista">
-                            <p class="plano__lista--item">
-                                Real-time audience analytics tracking up to 5k followers.
-                            </p>
-                        </li>
-                    </ul>
-                </section>
-                <button class="button flex">
-                    <img src="./Assets/Twitter.svg" alt="Icone Twitter">
-                    Sign in with Twitter
-                </button>
+            <section class="plano__conteiner">
+                <div class="alinhamento__body">
+                    <header class="section__plano__header">
+                        <h1 class="section__plano__titulo">
+                            Monthly
+                        </h1>
+                        <p class="section__plano__preco">
+                            <span class="section__plano__valor">$9</span>/mo
+                        </p>
+                    </header>
+                    <section>
+                        <ul class="plano__lista__conteiner">
+                            <li class="plano__lista">
+                                <p class="plano__lista--item">
+                                    Unlimited* scheduled tweets and threads
+                                </p>
+                            </li>
+                            <li class="plano__lista">
+                                <p class="plano__lista--item">
+                                    Schedule up to 3 weeks in advance.
+                                </p>
+                            </li>
+                            <li class="plano__lista">
+                                <p class="plano__lista--item">
+                                    Real-time audience analytics tracking up to 5k followers.
+                                </p>
+                            </li>
+                        </ul>
+                        <button class="button flex">
+                            <img src="./Assets/Twitter.svg" alt="Icone Twitter">
+                            Sign in with Twitter
+                        </button>
+                </div>
             </section>
-        </section>
-        <footer class="flex">
-            <h1 class="logo">Chirp.</h1>
-            <div>
-                <img src="./Assets/Twitter (Black).svg" alt="">
-                <a href="#">Privacy Policy</a>
-                <a href="">Terms of Use</a>
-            </div>
-        </footer>
+    </section>
+
     </div>
+    </section>
+    <footer class="flex">
+        <h1 class="logo">Chirp.</h1>
+        <div>
+            <img src="./Assets/Twitter (Black).svg" alt="">
+            <a href="#">Privacy Policy</a>
+            <a href="">Terms of Use</a>
+        </div>
+    </footer>
 </body>
 
 </html>

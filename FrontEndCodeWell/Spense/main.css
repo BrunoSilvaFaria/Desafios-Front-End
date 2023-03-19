@@ -1,0 +1,135 @@
+/* === RESET === */
+* {
+    background: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: gray;
+}
+
+/* --- Mobile Version // 2.3 --- */
+.alinhamento {
+    margin: auto;
+    width: 90%;
+}
+
+/* === MENU === */
+.menu__conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 90px;
+}
+
+.menu__mobile {
+    display: none;
+}
+
+.logo {
+    font-size: 1.7rem;
+}
+
+/* === Section Styles ===  */
+.section {}
+
+.section__img {
+    margin-bottom: 35px;
+    height: 315px;
+}
+
+.section--display {}
+
+.sections__bg {
+    background: white;
+    margin: auto;
+}
+
+/* --- TIPOFRAFIA --- */
+
+.title {
+    font-size: 1.9rem;
+    margin-bottom: 8px;
+}
+
+.paragraph {
+    line-height: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* --- BUTTON --- */
+.btn {
+    background: black;
+    border-radius: 5px;
+    cursor: pointer;
+
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+
+    height: 50px;
+    width: 120px;
+
+}
+
+.btn__login {}
+
+.btn__login--form {}
+
+/* === SECTION INTRO === */
+/* --- LIST --- */
+
+.list {
+    margin-bottom: 25px;
+    list-style: none;
+}
+
+.list--display {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 5px;
+}
+
+.list p {
+    margin-left: 10px;
+}
+
+/* --- INPUT --- */
+form {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 30px;
+}
+
+.input {
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 1rem;
+    height: 50px;
+    width: 175px;
+    padding-left: 15px;
+    margin-right: 15px;
+
+}
+
+/* === SECTION ESCROW === */
+.section__escrow {
+    background: gray;
+    border-radius: 5px;
+
+    margin: auto;
+    margin-top: 40px;
+    width: 90%;
+}
+
+.section__text{
+    padding-top: 40px;
+}

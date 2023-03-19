@@ -87,20 +87,23 @@ body {
 
 .avatar__lista {
     list-style: none;
-    /*     display: flex; */
+    margin-bottom: 20px;
 }
 
 .avatar__lista img {
-    height: 60px;
-    /*     position: absolute; */
-    border: 3px solid #fff;
+    /* height: 60px; */
     border-radius: 50%;
+}
+
+.avatar__lista li {
+    margin-right: -1.5em;
 }
 
 /* ======= // ======== // ======  */
 /* --- Section Produtos --- */
 .section__produtos {
-    margin-top: 80px;
+    padding-top: 80px;
+    background: white;
 }
 
 .card__produtos {
@@ -117,14 +120,15 @@ body {
     margin: 20px auto 30px auto;
 }
 
-.paragrafo--avaliacao{
-        margin: 15px auto 20px auto;
+.paragrafo--avaliacao {
+    margin: 15px auto 20px auto;
 }
 
 /* ======= // ======== // ======  */
 /* --- Section Avaliação --- */
-.section__avaliacao {
+.section__avaliacao--bg {
     background: #d7f5f5;
+    width: 100%;
 }
 
 .perfil,
@@ -158,31 +162,42 @@ footer {
 
 .perfil--avatar {}
 
-.curtida__quantidade{
+.curtida__quantidade {
     margin-left: 5px;
     font-size: 1.1em;
 }
+
 /* ======= // ======== // ======  */
 /* === Section Plano === */
-.section__plano{
+.section__plano {
+    background: white;
 }
-.section__plano__header{
+
+.section__plano__header {
     border-bottom: 1px solid #d3d2d2;
 }
 
-.plano__lista__conteiner{
+.plano__lista__conteiner {
     height: 175px;
     margin-bottom: 20px;
     border-bottom: 1px solid #d3d2d2;
-    
+
 }
-.plano__lista{
+
+.plano__conteiner{
+    background-color: #fbf8f3;
+    border: 1px solid #ffad23;
+    border-radius: 10px;
+}
+.plano__lista {
     list-style-image: url("./Assets/Checkmark.svg");
     margin-top: 20px;
 }
-.plano__lista--item{
+
+.plano__lista--item {
     width: 90%;
 }
+
 /* ======= // ======== // ======  */
 /* === Button === */
 .button {
@@ -219,6 +234,11 @@ footer {
     font-weight: 700;
     text-align: center;
     text-decoration: none;
+    margin-bottom: 30px;
+}
+
+.link span {
+    color: #207998;
 }
 
 .logo {
@@ -256,6 +276,7 @@ footer {
 }
 
 .titulo {
+    color: #000;
     font-size: 1.9em;
     line-height: 1.4em;
 }
