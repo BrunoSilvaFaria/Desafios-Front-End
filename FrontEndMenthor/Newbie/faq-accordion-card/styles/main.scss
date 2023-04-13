@@ -81,16 +81,16 @@ main::before {
       width: 85%;
       margin-bottom: 15px;
       margin-top: 15px;
-
-      .question__question:hover {
-        cursor: pointer;
-      }
     }
 
     .icon-question {
       color: $icon;
       font-weight: 700;
     }
+  }
+
+  .question__question-conteiner:hover {
+    cursor: pointer;
   }
 
   // === Question Awsern ===

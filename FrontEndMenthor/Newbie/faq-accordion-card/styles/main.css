@@ -62,12 +62,12 @@ main::before {
   margin-bottom: 15px;
   margin-top: 15px;
 }
-.question__conteiner .question__question-conteiner .question__question .question__question:hover {
-  cursor: pointer;
-}
 .question__conteiner .question__question-conteiner .icon-question {
   color: #ff7755;
   font-weight: 700;
+}
+.question__conteiner .question__question-conteiner:hover {
+  cursor: pointer;
 }
 .question__conteiner .question__anwsern {
   color: #777788;
