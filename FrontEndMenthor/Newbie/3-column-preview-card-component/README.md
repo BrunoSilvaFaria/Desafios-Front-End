@@ -32,15 +32,16 @@ Foi proposto recriar o seguinte site, fazendo o mais semelhante possível, a par
 <h3>Ferramentas:</h3>
 </a>
 
-- HTML5
-- CSS3
-- SASS
-- Arquitetura BEM
-- Mobile-first
+- [Adobe Color](https://color.adobe.com/pt/create/color-wheel)
+- [Arquitetura BEM](https://en.bem.info/methodology/css/)
+- [Atom](https://atom.io/)
+- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [FireFox](https://www.mozilla.org/pt-BR/firefox/new/)
 - [Google Fonts](https://fonts.google.com)
-- [Atom](https://atom.io/) - Editor de texto
-- [Adobe Color](https://color.adobe.com/pt/create/color-wheel) - Paleta de cores
-- [FireFox](https://www.mozilla.org/pt-BR/firefox/new/) - Navegador utilizado para visualização e desenvolvimento do site
+- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [Mobile-first](https://developer.mozilla.org/en-US/docs/Glossary/Mobile_First)
+- [SASS](https://sass-lang.com/)
 
 <a id="aprendizado">
 <h3>O que eu aprendi:</h3>

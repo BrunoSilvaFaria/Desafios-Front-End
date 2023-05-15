@@ -1,6 +1,6 @@
-<h1>Frontend Mentor - 3-column preview card component</h1>
+<h1>Frontend Mentor - Interactive rating component solution</h1>
 
-Olá, seja bem vindo a mais uma resolução de desafio. Desta vez, resolvi o [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Sugestões e dicas são bem-vindas!
+Olá, seja bem vindo a mais uma resolução de desafio. Desta vez, resolvi o [FAQ accordion card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam). Sugestões e dicas são bem-vindas!
 
 <h2>Contéudo </h2>
 
@@ -9,6 +9,7 @@ Olá, seja bem vindo a mais uma resolução de desafio. Desta vez, resolvi o [Fo
 - [Meu processo](#meu-processo)
     - [Ferramentas](#ferramentas)
     - [O que eu aprendi](#aprendizado)
+    - [Referências](#referencias)
 -[Guia de estilo](#estilo)
 
 
@@ -26,8 +27,8 @@ Foi proposto recriar o seguinte site, fazendo o mais semelhante possível, a par
 <h2> Screenshot da minha solução:</h2>
 </a>
 
-![](./design/desktop-solução.jpg)
-![](./design/mobile-solução.jpg)
+![](./design/desktop-solucao.jpg)
+![](./design/mobile-solucao.jpg)
 
 <a id="meu-processo">
 <h2> Processo de desenvolvimento:</h2>
@@ -47,17 +48,19 @@ Foi proposto recriar o seguinte site, fazendo o mais semelhante possível, a par
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Mobile-first](https://developer.mozilla.org/en-US/docs/Glossary/Mobile_First)
-- [SASS](https://sass-lang.com/)
-
 
 <a id="aprendizado">
-<h3> O que eu aprendi:</h3>
+<h3>O que eu aprendi:</h3>
 </a>
 
-- Arquitetura BEM
-- Padronização do CSS
-- Posicionamento dos elementos
-- SASS
+- Manipulação do DOM
+- Elemtnos de formulário
+
+<a id="referencias">
+<h3>Referências</h3>
+</a>
+
+- [Checkbox Checked](https://www.w3schools.com/howto/howto_js_display_checkbox_text.asp)
 
 <a id="estilo">
 <h1>Guia de estilo</h1>
@@ -72,16 +75,15 @@ Foi proposto recriar o seguinte site, fazendo o mais semelhante possível, a par
 
 <H3> Primárias </h3>
 
-- Red: hsl(0, 78%, 62%)
-- Cyan: hsl(180, 62%, 55%)
-- Orange: hsl(34, 97%, 64%)
-- Blue: hsl(212, 86%, 64%)
+- Orange: hsl(25, 97%, 53%)
 
 <h3> Neutras </h3>
 
-- Very Dark Blue: hsl(234, 12%, 34%)
-- Grayish Blue: hsl(229, 6%, 66%)
-- Very Light Gray: hsl(0, 0%, 98%)
+- White: hsl(0, 0%, 100%)
+- Light Grey: hsl(217, 12%, 63%)
+- Medium Grey: hsl(216, 12%, 54%)
+- Dark Blue: hsl(213, 19%, 18%)
+- Very Dark Blue: hsl(216, 12%, 8%)
 
 <h2> Tipografia </h2>
 
@@ -90,6 +92,6 @@ Foi proposto recriar o seguinte site, fazendo o mais semelhante possível, a par
 
 
 <h3> Fonte </h3>
-- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
-    - Weights: 200, 400, 600
 
+- Family: [Overpass](https://fonts.google.com/specimen/Overpass)
+    - Weights: 400, 700
