@@ -1,0 +1,79 @@
+/* === RESET === */
+* {
+  background: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* === Body === */
+.body {
+  /* --- estilos --- */
+  background: hsl(212, 45%, 89%);
+  /* --- display --- */
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  /* --- tamanho --- */
+  min-height: 100vh;
+}
+
+/* === MAIN === */
+.main {
+  /* --- estilos --- */
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* --- tamanho --- */
+  height: 500px;
+  width: 320px;
+}
+
+.alinhamento__main {
+  /* --- display --- */
+  margin: auto;
+  /* --- tamanho --- */
+  width: 290px;
+}
+
+/* === IMG === */
+.img__conteiner {
+  /* --- display ---  */
+  margin: 15px auto;
+  /* --- tamanho --- */
+  width: 290px;
+}
+
+.img__item {
+  /* --- estilos --- */
+  border-radius: 15px;
+  /* --- tamanho --- */
+  height: 280px;
+  width: 100%;
+}
+
+/* === Section Text === */
+.section__text {
+  /* --- tipografia --- */
+  text-align: center;
+  /* --- display --- */
+  display: inline-block;
+  margin: 5px auto auto auto;
+  /* --- tamanho --- */
+  width: 290px;
+}
+
+.section__title {
+  /* --- tipografia --- */
+  color: hsl(218, 44%, 22%);
+  font-size: 1.5em;
+  /* --- display --- */
+  margin-bottom: 15px;
+}
+
+.section__paragraph {
+  color: hsl(220, 15%, 55%);
+  font-size: 1.1em;
+}
