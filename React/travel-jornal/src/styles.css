@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    color: #2B283A;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* === Root === */
+.conteiner__app {
+    width: 550px;
+    margin: 50px auto;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+/* === display === */
+.header,
+.card,
+.location,
+.location__conteiner {
+    display: flex;
+    align-items: center;
+}
+
+/* === Header === */
+.header {
+    background-color: #F55A5A;
+    justify-content: center;
+    margin-bottom: 50px;
+    height: 55px;
+}
+
+.header__title {
+    font-size: 0.87em;
+    font-weight: 500;
+    letter-spacing: -0.075em;
+    color: #fff;
+    margin-left: 5px;
+}
+
+/* === Card ===  */
+.card {
+    margin: auto;
+    height: 170px;
+    width: 470px;
+    padding-bottom: 36px;
+    margin-bottom: 36px;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.card:last-child{
+    border: none;
+}
+
+.card__img {
+    border-radius: 5px;
+    margin-right: 20px;
+
+    height: 170px;
+    width: 126px;
+
+}
+
+.location {
+    margin-bottom: 5px;
+}
+
+.location__country {
+    font-size: 10px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+
+.location__link {
+    color: #918E9B;
+    font-size: 0.65em;
+    margin-left: 10px;
+}
+
+.destiny {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.date {
+    margin-bottom: 10px;
+}
+
+.date__text {
+    font-size: 0.65em;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 0.65em;
+    line-height: 15px;
+}

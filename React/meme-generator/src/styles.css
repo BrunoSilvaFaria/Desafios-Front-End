@@ -1,0 +1,100 @@
+/* === RESET === */
+* {
+    box-sizing: border-box;
+    border: none;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+.app {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 550px;
+    margin: 30px auto;
+    padding-bottom: 55px;
+}
+
+/* === Display Flex === */
+.header,
+.logo,
+.inputs {
+    display: flex;
+    align-items: center;
+}
+
+/* === header === */
+.header {
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    justify-content: space-around;
+    margin-bottom: 36px;
+    height: 65px;
+}
+
+.logo__text {
+    font-size: 1.31em;
+    font-weight: 700;
+    letter-spacing: -0.1em;
+
+    margin-left: 15px;
+}
+
+.header__text {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75em;
+    font-weight: 500;
+}
+
+/* === Form === */
+.form {
+    width: 475px;
+    margin: auto;
+}
+
+.inputs {
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.input {
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    color: #0D0D0D;
+
+    font-size: 0.75;
+    font-weight: 400;
+    padding-left: 10px;
+    height: 35px;
+    width: 230px;
+}
+
+button {
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border-radius: 5px;
+    cursor: pointer;
+
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.1em;
+    line-height: 19px;
+    text-align: center;
+
+    margin-bottom: 36px;
+
+    height: 40px;
+    width: 100%;
+}
+
+.image__render {
+    border-radius: 2px;
+    display: block;
+    margin: auto;
+    height: 268px;
+    width: 477px;
+}
+
+
+.color {
+    color: black;
+}

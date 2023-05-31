@@ -1,0 +1,119 @@
+/* === RESET === */
+* {
+  font-family: 'Poppins', sans-serif;
+  color: #222222;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+/* === APP === */
+.conteiner__app {
+  border-radius: 9px;
+  box-shadow: 0px 3px 7.5px 0px #0000001A;
+  width: 550px;
+  margin: 50px auto;
+}
+
+/* === Nav === */
+.nav {
+  height: 70px;
+  box-shadow: 0px 3px 7.5px 0px #0000001A;
+}
+
+.icon__logo {
+  padding: 20px 30px;
+}
+
+/* === Hero === */
+.hero {
+  background: url('./assets/galery.png') no-repeat;
+  background-size: 400px 232px;
+  background-position: left -15px;
+}
+
+.hero__title {
+  padding-top: 280px;
+  color: #000;
+  font-size: 2.25em;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.hero__paragraph {
+  color: #222222;
+  font-size: 1em;
+  line-height: 1.1em;
+  width: 340px;
+}
+
+.hero__title,
+.hero__paragraph {
+  margin-left: 38px;
+}
+
+/* === Project === */
+.projects {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 20px;
+  overflow: hidden;
+}
+
+.project {
+  height: 350px;
+  width: 176px;
+  margin-left: 18px;
+}
+
+.project__img {
+  border-radius: 9px;
+  margin-bottom: 10px;
+  height: 235px;
+  width: 176px;
+}
+
+.project__status {
+  background: #FFFFFF;
+  border-radius: 2px;
+  margin: 6px;
+  height: 20px;
+  width: 61px;
+  position: absolute;
+  bottom: 310px;
+}
+
+.project__status>p {
+  font-size: 10px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 3px;
+}
+
+.project__info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.rate__stars,
+.rate__text,
+.project__title,
+.project__price {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.rate__stars,
+.rate__text {
+  margin-left: 2px;
+}
+
+.rate__text {
+  color: #918E9B;
+}
+
+.project__price--destaque {
+  font-weight: 600;
+}
