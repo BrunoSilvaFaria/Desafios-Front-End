@@ -1,0 +1,150 @@
+/* === Font === */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("./webfont/Inter-Black.woff2") format("woff"),
+        url("./webfont/Inter-Black.woff") format("woff");
+}
+
+/* === RESET === */
+* {
+    background: none;
+    border: none;
+    box-sizing: border-box;
+    color: #252525;
+    font-family: Inter;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f3f3f3;
+    ;
+}
+
+/* === FORM === */
+form {
+    margin: 100px auto;
+    width: 320px;
+}
+
+/* --- Title --- */
+.title {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+/* --- Label --- */
+.label {
+    text-transform: uppercase;
+}
+
+/* --- Tipografia --- */
+.title,
+.label,
+.input__submit i {
+    color: #4c2982;
+}
+
+/* === Input === */
+.input {
+    background-color: #f3f3f3;
+
+    display: flex;
+    margin-top: 10px;
+
+    height: 48px;
+    width: 320px;
+}
+
+
+/* --- Campo --- */
+.input__camp {
+    background-color: #f9f7f3;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-size: 0.9em;
+    padding-left: 15px;
+    width: 280px;
+}
+
+.input__camp:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: 2px solid #4c2982;
+}
+
+/* --- Button --- */
+.input__submit {
+    background-color: #f9d170;
+    height: 48px;
+    width: 50px;
+}
+
+.input__submit i {
+    font-size: 1.5em;
+}
+
+/* === Conteiner ===  */
+.conteiner {
+    height: 80px;
+    width: 330px;
+}
+
+.conteiner__align {
+    display: flex;
+    padding: 15px;
+}
+
+.icon {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.conteiner__text {
+    margin-top: 5px;
+}
+
+.conteiner__text h3 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.conteiner__text p {
+    font-size: 0.9rem;
+}
+
+/* === Error === */
+.error {
+    background-color: #fdeff3;
+    border: 1px solid #b71540;
+    margin-top: 15px;
+}
+
+/* --- Text --- */
+.error i,
+.conteiner__text--error p,
+.conteiner__text--error h3 {
+    color: #b71540;
+}
+
+/* === Sucess === */
+.sucess {
+    background-color: #f5fffe;
+    border: 1px solid #067973;
+    height: 95px;
+}
+
+/* --- Text --- */
+.sucess i,
+.conteiner__text--sucess p,
+.conteiner__text--sucess h3 {
+    color: #067973;
+}
+
+/* --- Error e Sucess Display --- */
+.error,
+.sucess{
+    display: none;
+}

@@ -1,0 +1,90 @@
+/* === Reset === */
+* {
+    background: none;
+    border: none;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    margin: .5em;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 21px;
+    width: 30px;
+}
+
+.toggle-button .bar {
+    background: white;
+    border-radius: 10px;
+    height: 3px;
+    width: 100%;
+}
+
+.link__conteiner ul {
+    display: flex;
+}
+
+.link__conteiner li:hover {
+    background: #555;
+}
+
+.link__item {
+    display: block;
+    padding: 1rem;
+}
+
+@media (max-width: 400px) {
+    .toggle-button {
+        display: flex;
+    }
+
+    .link__conteiner {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .link__conteiner ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .link__conteiner li {
+        text-align: center;
+    }
+
+    .link__item {
+        padding: .5rem 1rem;
+    }
+
+    .link__conteiner.active {
+        display: flex;
+    }
+}
