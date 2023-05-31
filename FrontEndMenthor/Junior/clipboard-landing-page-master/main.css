@@ -1,0 +1,505 @@
+/* === Reset  / Padrões=== */
+* {
+    background: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+}
+
+a,
+i {
+    color: hsl(210, 10%, 33%);
+}
+
+main {
+    background-color: white;
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+}
+
+.alinhamento {
+    margin: auto;
+    width: 85%;
+}
+
+/* =============//==================//========= */
+/* === Tipografia === */
+.titulo {
+    font-size: 1.95em;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 800px) {
+    .section-intro .titulo {
+        font-size: 2.1em;
+    }
+}
+
+.subtitulo {
+    font-size: 1.7em;
+}
+
+@media (min-width: 800px) {
+    .subtitulo {
+        font-size: 2em;
+    }
+}
+
+.subtitulos {
+    font-size: 1.6em;
+}
+
+@media (min-width: 800px) {
+    .subtitulos {
+        font-size: 1.1em;
+    }
+}
+
+.subtitulo,
+.subtitulos {
+    margin-bottom: 20px;
+}
+
+.paragrafo,
+.paragrafos {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 800px) {
+    .paragrafo {
+        font-size: 1.1em;
+    }
+}
+
+@media (min-width: 800px) {
+    .paragrafos {
+        font-size: 1em;
+    }
+}
+
+/* === Header === */
+.background__header {
+    background: url("./images/bg-header-desktop.png") no-repeat;
+    height: 315px;
+}
+
+@media (max-width: 425px) {
+    .background__header {
+        background: url("./images/bg-header-mobile.png") no-repeat;
+        margin-bottom: 30px;
+        height: 270px;
+        width: 100%;
+    }
+}
+
+.logo {
+    position: absolute;
+    top: 170px;
+    z-index: 1;
+    left: -60px;
+    display: block;
+    margin-left: 50%;
+}
+
+@media (max-width: 425px) {
+    .logo {
+        top: 130px;
+    }
+}
+
+/* ============//=================//========= */
+/* === Section === */
+.section {
+    margin-bottom: 125px;
+}
+
+@media (max-width: 425px) {
+    .section {
+        margin-bottom: 160px;
+    }
+}
+
+/* =========//============//======= */
+/* === Section Intro === */
+.section-intro {}
+
+@media (min-width: 800px) {
+    .section-intro .paragrafo {
+        font-size: 1.25em;
+        margin-bottom: 50px;
+    }
+
+}
+
+/* =============//================//=========== */
+/* === Section Keep === */
+/* --- Keep --- */
+.section-keep {
+    margin-bottom: 180px;
+}
+
+.keep__header {
+    height: 280px;
+}
+
+@media (min-width: 800px) {
+    .section-keep {
+        margin-bottom: 150px;
+    }
+
+    .keep__caracteristicas {
+        width: 340px;
+    }
+
+    /* --- Tipografia --- */
+    .keep__caracteristica .subtitulos,
+    .keep__caracteristica .paragrafos {
+        text-align: left;
+    }
+
+    .keep__caracteristica .subtitulos {
+        margin-bottom: 15px;
+    }
+
+    .keep__caracteristica .paragrafos {
+        line-height: 1.6em;
+        margin-bottom: 60px;
+    }
+}
+
+
+/* =============//================//=========== */
+/* === Section Acess === */
+.section-acess {
+    height: 535px;
+}
+
+.conteiner__header--acess {
+    height: 235px;
+}
+
+/* -------- //-------- // */
+/* === Section Keep e Acess Background === */
+.section__background--keep {
+    background: url("./images/image-computer.png") no-repeat;
+}
+
+.section__background--acess {
+    background: url("./images/image-devices.png") no-repeat;
+}
+
+.section__background {
+    background-size: 100%;
+    margin: auto auto 60px auto;
+    height: 240px;
+    width: 315px;
+}
+
+@media (min-width: 800px) {
+
+    .section__background{
+        height: 550px;
+    }
+    .section__background,
+    .section__background--acess,
+    .section__background--keep {
+        width: 700px;
+    }
+
+    .section__background--acess .section__background {
+        margin: auto;
+    }
+
+    .section__background .section__background--keep {
+        height: 470px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .section__background,
+    .section__background--acess,
+    .section__background--keep {
+        width: 810px;
+    }
+}
+
+/* ==========//===========//============ */
+/* === Section Super === */
+.section-super {
+    margin-bottom: 95px;
+}
+
+@media (min-width: 800px) {
+    .section-super {
+        margin-bottom: 125px;
+    }
+
+    .super__header {
+        margin-bottom: 75px;
+    }
+}
+
+
+.super__display {}
+
+.super__caracteristica {
+    margin: 0 auto 10px auto;
+    width: 350px;
+}
+
+@media (max-width: 425px) {
+    .super__caracteristica {
+        margin: 0 auto 5px auto;
+        width: 100%;
+    }
+}
+
+.caracteristica__img {
+    margin: 0 auto 40px auto;
+}
+
+@media (max-width: 600px) {
+    .caracteristica__img {
+        margin: 60px auto 50px auto;
+    }
+}
+
+/* ==========//===========//============ */
+/* === Empresas === */
+.empresas {
+    margin: auto;
+    margin-bottom: 170px;
+}
+
+.empresas img {
+    display: block;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+/* ==========//===========//============ */
+/* === Footer === */
+footer {
+    background-color: #f5f6f8;
+    height: 480px;
+}
+
+.footer__logo {
+    height: 50px;
+    width: 50px;
+    margin: 50px auto;
+}
+
+@media(min-width: 800px) {
+    .footer__logo {
+        margin: 0;
+    }
+}
+
+/* --- Links --- */
+nav {
+    margin-bottom: 45px;
+}
+
+@media(min-width: 800px) {
+    nav {
+        width: 490px;
+        margin: 10px 0 0 0;
+    }
+
+    footer {
+        height: 150px;
+    }
+
+    .footer__display {
+        margin: 20px auto;
+        width: 670px;
+    }
+
+    .footer__size,
+    .footer__display {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 60px;
+    }
+
+    .footer__size {
+        flex-wrap: wrap;
+        height: 150px;
+        width: 90%;
+        max-width: 1114px;
+        margin: 40px auto 0 auto;
+    }
+}
+
+@media(min-width: 1200px) {
+
+    .footer__display {
+        margin: 0;
+    }
+
+    .footer__size {
+        width: 1114px;
+        margin: auto;
+    }
+}
+
+.list__item {
+    margin-bottom: 15px;
+}
+
+@media (max-width: 450px) {
+    .list__item {
+        margin-bottom: 20px;
+    }
+}
+
+.list__link {
+    font-size: 1.1em;
+}
+
+/* --- Icones de Redes sociais --- */
+.list-social {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    width: 100px;
+}
+
+@media (max-width: 1150px) {
+    .list-social {
+        margin: auto;
+
+    }
+}
+
+@media (max-width: 450px) {
+    .list-social {
+        margin: 45px auto auto auto;
+        width: 145px;
+    }
+}
+
+.social__item {}
+
+.social__link {
+    font-size: 1.5em;
+}
+
+@media (max-width: 450px) {
+    .list-social {
+        margin: 45px auto auto auto;
+        width: 145px;
+    }
+}
+
+/* --- Hover --- */
+.list__link:hover,
+.social__link i:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+/* ==========//===========//============ */
+/* === Button === */
+.button {
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    margin: auto auto 25px auto;
+    height: 50px;
+    width: 90%;
+}
+
+.button--ios {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.button--mac {
+    background-color: hsl(233, 100%, 69%);
+}
+
+@media(min-width: 800px) {
+    .button {
+        height: 55px;
+        width: 200px;
+    }
+
+    .button:hover {
+        cursor: pointer;
+    }
+
+    .button__conteiner {
+        display: flex;
+        margin: auto;
+        width: 430px;
+    }
+}
+
+/* =============//==================//========= */
+/* --- Display Flex --- */
+@media(min-width: 800px) {
+    body {
+        background-color: #f5f6f8;
+        max-width: 1440px;
+        margin: auto;
+    }
+
+    header {
+        margin: auto;
+        max-width: 700px;
+    }
+
+    .keep__display,
+    .super__display,
+    .empresas,
+    .list {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .keep__display {
+        height: 450px;
+        align-items: center;
+    }
+
+    .super__display,
+    .empresas {
+        flex-wrap: wrap;
+        margin: auto;
+        max-width: 1115px;
+    }
+
+    .empresas {
+        margin: auto;
+        margin-bottom: 110px;
+        width: 70%;
+    }
+
+}
+
+@media(min-width: 1200px) {
+    .empresas {
+        width: 100%;
+    }
+}

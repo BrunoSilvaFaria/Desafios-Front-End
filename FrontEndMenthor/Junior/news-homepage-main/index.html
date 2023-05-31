@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./main.css">
+
+  <title>Frontend Mentor | News homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="alinhamento">
+    <header class="menu">
+      <a href="#"><img src="./assets/images/logo.svg" alt="Logo site" class="logo"></a>
+      <a href="#"><img src="./assets/images/icon-menu.svg" alt="Icon Hamburguer" class="icon-hamb"></a>
+
+      <div class="menu-responsivo">
+        <a href="#"><img src="./assets/images/icon-menu-close.svg" alt="Icon Close" class="icon-close"></a>
+        <nav class="menu-links">
+          <ul class="menu-links__list">
+            <li><a href="#" class="menu__item">Home</a></li>
+            <li><a href="#" class="menu__item">New</a></li>
+            <li><a href="#" class="menu__item">Popular</a></li>
+            <li><a href="#" class="menu__item">Trending</a></li>
+            <li><a href="#" class="menu__item">Categories</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="alinhamento-display">
+      <section class="section-hero">
+        <div class="background-illustration"></div>
+        <div class="section-hero__alinhamento">
+          <h1 class="section-hero__title">
+            The Bright Future of Web 3.0?
+          </h1>
+          <div class="section-hero__conteiner">
+            <p class="section-hero__paragraph paragraph">
+              We dive into the next evolution of the web that claims to put the power of the platforms back into the
+              hands
+              of
+              the people.
+              But is it really fulfilling its promise?
+            </p>
+
+            <button class="section-hero__button">
+              Read more
+            </button>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="section-new">
+        <div class="section-new__alinhamento">
+          <h1 class="section-new__title">New </h1>
+
+          <section class="new-conteiner">
+            <a href="#" class="new-conteiner__link conteiner__link">
+              Hydrogen VS Electric Cars
+            </a>
+
+            <p class="new-conteiner__paragraph paragraph">
+              Will hydrogen-fueled cars ever catch up to EVs?
+            </p>
+          </section>
+
+          <section class="new-conteiner">
+            <a href="#" class="new-conteiner__link conteiner__link">
+              The Downsides of AI Artistry
+            </a>
+
+            <p class="new-conteiner__paragraph paragraph">
+              What are the possible adverse effects of on-demand AI image generation?
+            </p>
+          </section>
+
+          <section class="new-conteiner">
+            <a href="#" class="new-conteiner__link conteiner__link">
+              Is VC Funding Drying Up?
+            </a>
+
+            <p class="new-conteiner__paragraph paragraph">
+              Private funding by VC firms is down 50% YOY. We take a look at what that means.
+            </p>
+          </section>
+        </div>
+      </section>
+
+      <section class="section-top">
+        <section class="section-top__section">
+          <img src="./assets/images/image-retro-pcs.jpg" alt="" class="section-top__img">
+          <section class="section-top__conteiner">
+            <h1 class="conteiner__title">01</h1>
+            <a href="#" class="top-conteiner__link conteiner__link">Reviving Retro PCs</a>
+            <p class="conteiner__paragraph paragraph">What happens when old PCs are given modern upgrades?</p>
+          </section>
+        </section>
+
+        <section class="section-top__section">
+          <img src="./assets/images/image-top-laptops.jpg" alt="" class="section-top__img">
+          <section class="section-top__conteiner">
+            <h1 class="conteiner__title">02</h1>
+            <a href="#" class="top-conteiner__link conteiner__link">Top 10 Laptops of 2022</a>
+            <p class="conteiner__paragraph paragraph">Our best picks for various needs and budgets.</p>
+          </section>
+        </section>
+
+        <section class="section-top__section">
+          <img src="./assets/images/image-gaming-growth.jpg" alt="" class="section-top__img">
+          <section class="section-top__conteiner">
+            <h1 class="conteiner__title">03</h1>
+            <a href="#" class="top-conteiner__link conteiner__link">The Growth of Gaming</a>
+            <p class="conteiner__paragraph paragraph">How the pandemic has sparked fresh opportunities.</p>
+          </section>
+        </section>
+
+      </section>
+      </section>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>

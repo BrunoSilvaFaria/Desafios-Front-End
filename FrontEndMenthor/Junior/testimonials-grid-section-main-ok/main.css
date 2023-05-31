@@ -1,0 +1,206 @@
+/* === RESET === */
+* {
+    background: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+h2,
+h3 {
+    font-weight: 600;
+}
+
+/* === Body === */
+body {
+    background-color: hsl(210, 46%, 95%);
+}
+
+.conteiner__main {
+    margin: 70px auto;
+    width: 90%;
+}
+
+/* === Card === */
+.conteiner__card {
+    border-radius: 8px;
+    margin-bottom: 20px;
+    max-width: 350px;
+}
+
+/* --- Alinhamento --- */
+.alinhamento {
+    margin: auto;
+    padding: 20px 0 35px 0;
+    width: 80%;
+}
+
+/* --- Card perfils Background --- */
+.conteiner__card--violet {
+    background-color: hsl(263, 55%, 52%);
+}
+.conteiner__card--grayish {
+    background-color: hsl(217, 19%, 35%);
+}
+.conteiner__card--blackish {
+    background-color: hsl(219, 29%, 14%);
+}
+.conteiner__card--white {
+    background-color: hsl(0, 0%, 100%);
+}
+
+/* --- Grid Area --- */
+.grid__violet {
+    grid-area: gridViolet;
+}
+.grid__grayish {
+    grid-area: gridGrayish;
+}
+.grid__blackish {
+    grid-area: gridBlackish;
+}
+.grid__white {
+    grid-area: gridWhite;
+}
+
+.grid__white--small {
+    grid-area: gridWhiteSmall;
+}
+
+/* === Avatar === */
+.card__avatar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* --- IMG --- */
+.conteiner__img {
+    margin-right: 15px;
+}
+
+.avatar__img {
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+}
+
+/* --- Nome e Graduação --- */
+.nome {
+    font-size: 13px;
+}
+
+.graduacao {
+    font-size: 11px;
+}
+
+/* === Depoimento === */
+.titulo {
+    font-size: 1.188em;
+    margin-bottom: 20px;
+}
+
+.paragrafo {
+    font-size: 0.844em;
+}
+
+/* === Tipografia e Destaque === */
+.paragrafo,
+.graduacao {
+    color: hsl(0, 0%, 81%);
+}
+
+.nome,
+.titulo {
+    color: hsl(210, 46%, 95%);
+}
+
+.nome--destaque,
+.titulo--destaque {
+    color: hsl(219, 29%, 14%);
+}
+
+.paragrafo--destaque,
+.graduacao--destaque {
+    color: hsl(217, 19%, 35%);
+}
+
+@media(min-width: 800px) {
+    .conteiner__main {
+        display: grid;
+        grid-template-areas:
+            "gridViolet gridGrayish"
+            "gridViolet gridWhiteSmall"
+            "gridWhite gridBlackish"
+        ;
+    }
+
+    .paragrafo{
+        line-height: 1.3em;
+    }
+}
+
+@media(min-width: 1200px) {
+
+    .conteiner__main {
+        grid-template-areas:
+            "gridViolet  gridViolet gridGrayish gridWhite"
+            "gridWhiteSmall  gridBlackish gridBlackish gridWhite"
+        ;
+        column-gap: 30px;
+        width: 80%;
+        max-width: 1120px;
+    }
+
+    .alinhamento{
+        padding: 30px 0 35px 0;
+    }
+    .conteiner__card{
+        margin-bottom: 20px;
+    }
+
+    .grid__violet,
+    .grid__blackish {
+        max-width: 550px;
+    }
+
+    .grid__violet,
+    .grid__grayish{
+        height: 285px;
+    }
+    .grid__grayish {
+        max-width: 255px;
+    }
+    .grid__blackish,
+    .grid__white--small {
+        height: 265px;
+    }
+    .grid__white--small {
+        max-width: 255px;
+    }
+    .grid__white {
+        height: 575px;
+        max-width: 265px;
+    }
+
+
+    .grid__violet .alinhamento,
+    .grid__blackish .alinhamento {
+        width: 90%;
+    }
+    .grid__white .alinhamento,
+    .grid__white--small .alinhamento {
+        width: 75%;
+    }
+
+    .grid__blackish .titulo,
+    .grid__white--small .titulo {
+        margin-bottom: 25px;
+    }  
+    .grid__white .titulo{
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,165 @@
+* {
+    background: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(0, 0%, 86%);
+}
+
+/* === Razao 0.8 ===  */
+main,
+.alinhamento {
+    margin: auto;
+    width: 90%;
+}
+
+main {
+    background-color: white;
+    border-radius: 20px 20px 80px 20px;
+
+    margin-top: 100px;
+
+    height: 425px;
+    width: 90%;
+}
+
+/* === FORM === */
+.form__display {
+    border-bottom: 2px solid hsl(0, 0%, 86%);
+    padding-top: 55px;
+    height: 180px;
+}
+
+.conteiner_itens {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteiner {
+    width: 85px;
+    position: relative;
+}
+
+label {
+    color: hsl(0, 1%, 44%);
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    font-style: italic;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+input {
+    border: 1px solid hsl(0, 1%, 44%);
+    border-radius: 8px;
+    font-size: 18px;
+
+    padding: 10px;
+    height: 50px;
+    width: 85px;
+}
+
+input:hover {
+    border-color: hsl(259, 100%, 65%);
+    cursor: pointer;
+}
+
+.span-field,
+.span-day,
+.span-month,
+.span-year {
+    display: none;
+    font-size: 10px;
+    font-style: italic;
+}
+
+button {
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 50%;
+    background: hsl(259, 100%, 65%);
+
+    display: block;
+    margin: auto;
+
+    position: absolute;
+    top: 260px;
+    left: 50%;
+
+    height: 40px;
+    width: 40px;
+
+}
+
+img {
+    padding-top: 5px;
+    height: 25px;
+}
+
+/* === Awsern === */
+p {
+    font-size: 3rem;
+    font-weight: 800;
+    font-style: italic;
+    height: 50px;
+}
+
+.result {
+    color: hsl(259, 100%, 65%);
+    font-weight: 700;
+}
+
+input,
+p {
+    color: hsl(0, 0%, 8%);
+}
+
+@media (min-width: 800px) {
+    main {
+        margin-top: 50px;
+        width: 600px;
+    }
+
+    input,
+    .conteiner {
+        width: 100px;
+    }
+
+    .form__display {
+        height: 170px;
+    }
+
+    .conteiner_itens {
+        width: 350px;
+    }
+
+    button {
+        top: 185px;
+        right: 130px;
+        height: 60px;
+        width: 60px;
+    }
+
+    button:hover {
+        background: hsl(0, 0%, 8%);
+        cursor: pointer;
+    }
+
+    img {
+        height: 35px;
+    }
+
+    .awsern {
+        margin-top: 20px;
+    }
+
+    p {
+        font-size: 3.5rem;
+        height: 50px;
+    }
+}

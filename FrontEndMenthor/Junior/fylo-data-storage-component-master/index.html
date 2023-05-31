@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css
+">
+
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main class="conteiner">
+    <section class="section section__file">
+      <img src="./images/logo.svg" alt="Logo do site" class="logo">
+
+      <ul class="list">
+        <li class="list__item">
+          <img src="./images/icon-document.svg" alt="Icone de documento" class="list__img list__img--first">
+        </li>
+
+        <li class="list__item">
+          <img src="./images/icon-folder.svg" alt="Icone de pasta" class="list__img">
+        </li>
+
+        <li class="list__item">
+          <img src="./images/icon-upload.svg" alt="Icone de upload" class="list__img">
+        </li>
+      </ul>
+    </section>
+
+    <section class="section section__progress">
+      <div class="progress__alinhamento">
+        <p class="text">
+          You’ve used <span class="text--destaque">815 GB</span> of your storage
+        </p>
+
+        <div class="progress">
+          <progress value="815" max="1000">815</progress>
+          <div class="progress__display">
+            <span class="progress__text">0 GB</span>
+            <span class="progress__text">1000 GB</span>
+          </div>
+        </div>
+      </div>
+      <div class="rest rest__tooltip">
+        <div class="rest__conteiner">
+          <span class="rest__text">185</span>
+          <span class="rest__text rest__text--small">GB LEFT</span>
+        </div>
+
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
