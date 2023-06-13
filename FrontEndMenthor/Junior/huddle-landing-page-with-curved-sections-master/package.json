@@ -1,0 +1,14 @@
+{
+  "name": "huddle-landing-page-with-curved-sections-master",
+  "version": "0.0.1",
+  "description": "Desenvolvimento do front de um desafio, para um projeto pessoal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bruno",
+  "license": "ISC",
+  "devDependencies": {
+    "git-commit-msg-linter": "^5.0.4"
+  }
+}
