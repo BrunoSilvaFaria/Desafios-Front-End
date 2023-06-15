@@ -413,7 +413,6 @@ body {
   .footer {
     height: 700px;
     width: 90%;
-
   }
   .newsletter {
     margin: auto;
@@ -478,9 +477,6 @@ body {
 .social {
   margin-top: 40px;
   padding-bottom: 40px;
-}
-
-.list {
 }
 
 .list__item {
@@ -567,36 +563,6 @@ body {
   .subtitle {
     font-size: 1.6em;
   }
-}
-
-.info.__title {
-}
-
-.about__title {
-}
-
-.build__title {
-}
-
-.newletter__title {
-}
-
-.intro__paragraph {
-}
-
-.info__paragraph {
-}
-
-.about__paragraph {
-}
-
-.newsletter__paragraph {
-}
-
-.company__paragraph {
-}
-
-.company__paragraph {
 }
 
 .button,
