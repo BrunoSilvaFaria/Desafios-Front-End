@@ -3,7 +3,7 @@
 	padding: 0;
 	border: 0;
 	background: none;
-	box-sizing: none;
+	box-sizing: border-box;
 }
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
