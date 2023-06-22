@@ -1,0 +1,67 @@
+@import './core';
+// --- List ---
+.list__item{
+    @include display;
+    margin-bottom: 15px;
+}
+
+.list__icon{
+    padding-right: 10px;
+}
+
+// --- Form  ---
+.form{
+    max-width: 400px;
+}
+.label{
+    display: block;
+    margin: 30px 0 10px 0;
+}
+.input{
+    border: 1px solid $dark-slate-grey;
+    padding: 10px 10px 10px 20px;
+    margin-bottom: 15px;
+}
+.button{
+    padding: 11px;
+    background-color: $dark-slate-grey;
+}
+.input,
+.button{
+    border-radius: 5px ;
+    width: 90%;
+    max-width: 400px;
+}
+
+// --- Tipografia ---
+*{
+    font-family: 'Roboto', sans-serif;
+    color: $dark-slate-grey;
+    font-weight: 400;
+    font-size: 16px;
+}
+.button{
+    color: $white;
+}
+.title{
+    font-size: 3.1em;
+}
+
+.paragraph{
+    line-height: 1.4em;
+}
+
+.label{
+    font-size: 0.85em;
+}
+
+.input,
+.button{
+    font-size: 0.9em
+}
+
+.title,
+.label,
+.button{
+    font-weight: 700;;
+}
