@@ -1,0 +1,65 @@
+@import './core';
+// --- Components ---
+.conteiner{
+    width: 90%;
+    max-width: 400px;
+}
+
+.background{
+    background: url('../assets/images/illustration-sign-up-desktop.svg') no-repeat;
+    background-size: contain;
+    height: 450px;
+    width: 300px;
+}
+@media (max-width: 790px) {
+    .background{
+        background: url('../assets/images/illustration-sign-up-mobile.svg') no-repeat;
+        background-position: top center;
+        background-size: contain;
+        margin-bottom: 50px;
+        height: 290px;
+        width: 100%;
+    }
+    .conteiner{
+        margin: auto;
+    }
+}
+body{
+    background-color: $dark-slate-grey;
+}
+main{
+    border-radius: 20px;
+    background-color: $white;
+    padding-bottom: 20px;
+}
+
+@media (min-width: 450px) {
+    main{
+        margin: 100px auto;
+        padding: 30px;
+        width: 400px;
+    }    
+}
+
+@media (min-width: 800px) {
+    main{
+        @include display;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 780px;
+        padding: 20px;
+    }
+}
+
+@media (min-width: 1150px) {
+    main{
+        width: 900px;
+        padding: 60px;
+    }
+}
+
+.title,
+.paragraph{
+    margin-bottom: 20px;
+}
+
