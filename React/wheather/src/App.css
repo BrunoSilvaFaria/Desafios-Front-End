@@ -1,0 +1,84 @@
+/* === Reset === */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  box-sizing: none;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+body {
+  background: linear-gradient(#ff9000 0%, #ffbb00 100%) no-repeat;
+  height: 100vh;
+}
+
+/* === Main ===  */
+main {
+  max-width: 450px;
+  margin: auto;
+}
+
+/* === Search Wheather === */
+.city {
+  margin-top: 50px;
+  border-bottom: 1px solid #ffcf7c;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 60px;
+  color: #fff;
+  font-size: 3em;
+}
+
+.input {
+  background-color: #fff;
+  border: 1px solid #f07c00;
+  margin: auto;
+  margin-bottom: 45px;
+  height: 45px;
+  width: 90%;
+  max-width: 380px;
+}
+
+.input__camp {
+  width: 90%;
+  height: 45px;
+  padding-left: 15px;
+  font-size: 1em;
+}
+
+.input__button{
+  font-size: 1.5em;
+  background-color: red;
+}
+
+
+
+/* =====================//================ */
+button:hover{
+  cursor: pointer;
+}

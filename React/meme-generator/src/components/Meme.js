@@ -1,18 +1,25 @@
-import React, { createElement } from 'react';
+import React from 'react';
 import '../styles.css';
 import memesData from '../memeData';
 
 export default function Form() {
-    const memes = memesData.data.memes;
-    const random = Math.floor(Math.random() * memes.length);
-    let url
+    const [meme, setMeme] = React.useState({
+        topText: "",
+        bottomText: "",
+        randomImage: "http://i.imgflip.com/1bij.jpg"
+    });
 
-    const [memeImage, setMemeImage] = React.useState("");
-    
+    const [allMeme, setAllMeme] = React.useState(memesData)
+
     function handleMeme(e) {
         e.preventDefault();
-        url = memes[random].url;
-        setMemeImage(url)
+        const memes = allMeme.data.memes;
+        const random = Math.floor(Math.random() * memes.length);
+        let url = memes[random].url;
+        setMeme(prevMeme => ({
+            ...prevMeme,
+            randomImage: prevMeme = url
+        }))
     }
 
     return (
@@ -28,7 +35,7 @@ export default function Form() {
                 </button>
             </form >
 
-            <img src={memeImage} className='image__render' alt='Meme gerado' />
+            <img src={meme.randomImage} className='image__render' alt='Meme gerado' />
         </main>
     )
 };
