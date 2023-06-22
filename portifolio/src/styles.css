@@ -1,0 +1,38 @@
+* {
+  color: white;
+}
+
+body {
+  background-color: #0f1624;
+}
+
+.alinhamento {
+  width: 90%;
+  margin: auto;
+}
+
+.title__conteiner {
+  margin-bottom: 50px;
+}
+.title {
+  margin-bottom: 6px;
+}
+hr {
+  border: 2px solid white;
+  width: 50%;
+}
+
+.subtitle {
+  margin-bottom: 25px;
+}
+.paragraph {
+  line-height: 1.2em;
+  margin-bottom: 20px;
+}
+
+/* --- Display ---  */
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
