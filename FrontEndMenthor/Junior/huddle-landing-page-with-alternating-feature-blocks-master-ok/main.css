@@ -1,0 +1,477 @@
+/* === Set a Max Value to Screen === */
+.screen {
+    max-width: 1440px;
+    margin: auto;
+}
+
+/* === Colors === */
+:root {
+    --pink: hsl(322, 100%, 66%);
+    --very-pale__cyan: hsl(193, 100%, 96%);
+    --very-dark__cyan: hsl(192, 100%, 9%);
+    --grayish-blue: hsl(208, 11%, 55%);
+}
+
+/* === Display ===  */
+.header,
+.intro,
+.redes,
+.redes__conteiner {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    background: var(--pink);
+    border-radius: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    color: white;
+}
+
+/* === Background, Header && Intro === */
+.background {
+    background: url('./images/bg-hero-desktop.svg') no-repeat, #edfbfe;
+    margin-bottom: 120px;
+}
+
+.header,
+.intro {
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+/* --- Header --- */
+.header {
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+.header__logo {
+    width: 180px;
+}
+
+.header__button {
+    background: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 50px;
+    height: 40px;
+    width: 180px;
+}
+
+/* --- Intro --- */
+
+.intro {
+    flex-wrap: wrap;
+}
+
+.intro__display {
+    width: 460px;
+}
+
+.intro__paragraph {
+    margin-bottom: 40px;
+}
+
+.intro__title,
+.intro__paragraph {
+    line-height: 1.45em;
+}
+
+.intro__button {
+    height: 50px;
+    width: 250px;
+}
+
+.intro__img {
+    margin: auto;
+    width: 90%;
+    max-width: 500px;
+    padding-bottom: 50px;
+}
+
+
+
+/* === Media Queries === */
+/* --- Max --- */
+@media (max-width: 750px) {
+    .background {
+        background: url('./images/bg-hero-mobile.svg') no-repeat, #edfbfe;
+        margin-bottom: 80px;
+    }
+
+    .intro,
+    .header {
+        width: 80%;
+    }
+
+    /* --- Header --- */
+    .header {
+        margin-bottom: 85px;
+    }
+
+    .logo,
+    .header__button {
+        width: 100px;
+    }
+
+    .header__button {
+        font-size: 0.8em;
+        height: 25px
+    }
+
+    /* --- Intro --- */
+    .intro__title {
+        font-size: 1.5em;
+        margin: 0 auto 30px auto;
+    }
+
+    .intro__paragraph {
+        font-size: 0.95em;
+        margin: 0 auto 40px auto;
+    }
+
+    .intro__button {
+        height: 40px;
+        width: 230px;
+    }
+}
+
+@media(max-width: 1150px) {
+    .intro__button {
+        margin-bottom: 50px;
+    }
+}
+
+/* --- Min ---  */
+@media(min-width: 800px) {
+    .intro__title {
+        font-size: 2em;
+        width: 90%;
+        margin: 0 0 30px 0;
+    }
+}
+
+@media (min-width: 1300px) {
+    .intro__img {
+        max-width: 700px;
+    }
+}
+
+/* ============================================= */
+/* === Sections === */
+.sections {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.section {
+    background: white;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 35px;
+}
+
+.section__img {
+    margin: auto;
+    width: 40%;
+}
+
+.section__text {
+    margin: auto;
+    width: 350px;
+}
+
+.text__title {
+    margin-bottom: 25px;
+}
+
+.text__paragraph {
+    color: var(--grayish-blue);
+    line-height: 25px;
+}
+
+/* === Media Queries === */
+/* --- Max --- */
+@media(max-width: 750px) {
+    .padding {
+        padding: 5px 0 50px 0;
+    }
+
+    .section__img {
+        margin: 50px auto;
+    }
+
+    .section__text {
+        text-align: center;
+        width: 85%;
+    }
+
+    .sections {
+        margin-bottom: 100px;
+    }
+}
+
+
+/* --- Min --- */
+@media(min-width: 800px) {
+    .padding {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 50px 0 50px 0;
+    }
+}
+
+@media(min-width: 1200px) {
+    .section__img {
+        width: auto;
+        height: 300px;
+    }
+
+    .section__text {
+        width: 420px;
+    }
+}
+
+/* ============================================= */
+/* === Card === */
+.card {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+    max-width: 700px;
+}
+
+.card__padding {
+    padding: 60px 0;
+    max-width: 450px;
+    text-align: center;
+}
+
+.card {
+    position: relative;
+    z-index: 1;
+    background: white;
+    top: 110px;
+}
+
+.footer__conteiner {
+    position: relative;
+    z-index: 0;
+}
+
+.card,
+.card__padding,
+.card__button {
+    margin: auto;
+    width: 90%;
+}
+
+.card__title {
+    line-height: 1.45em;
+    margin-bottom: 40px;
+}
+
+.card__button {
+    height: 50px;
+}
+
+/* === Responsive === */
+@media (min-width: 800px) {
+    .card__padding {
+        padding: 70px 0;
+    }
+
+    .card__button {
+        height: 60px;
+    }
+}
+
+/* ============================================= */
+/* === Footer === */
+footer {
+    background: var(--very-dark__cyan);
+}
+
+footer,
+footer a {
+    color: white;
+}
+
+.text__align {
+    padding-top: 210px;
+    width: 90%;
+    margin: auto;
+}
+
+/* --- Margin --- */
+.footer__logo,
+.contact__conteiner,
+.list__item,
+.redes__conteiner {
+    margin-bottom: 30px
+}
+
+/* --- Contact --- */
+.contact {}
+
+.footer__logo {}
+
+/* --- Contact --- */
+.contact__conteiner {
+    display: flex;
+    max-width: 350px;
+}
+
+.contact__conteiner:last-child {
+    margin-bottom: 60px;
+}
+
+.contact__icon {}
+
+.contact__text {
+    margin-left: 15px;
+}
+
+.contact__text:hover {
+    color: var(--pink);
+}
+
+/* --- Links --- */
+.list__link:hover {
+    text-decoration: underline;
+}
+
+/* --- Redes --- */
+.redes {
+    justify-content: center;
+}
+
+.redes__conteiner {
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-left: 15px;
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+}
+
+
+.redes__conteiner:hover {
+    border: 1px solid var(--pink);
+    color: var(--pink)
+}
+
+/* --- Rights --- */
+.footer__text {
+    color: var(--very-pale__cyan);
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+/* === Responsive === */
+/* --- Min ---  */
+
+@media(min-width: 800px) {
+    .footer__conteiner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .links {
+        display: flex;
+        align-items: center;
+    }
+
+    .list {
+        margin-left: 10px;
+    }
+
+    .list__conteiner {
+        width: 110px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .text__align {
+        width: 80%;
+        margin: auto;
+    }
+
+    .list {
+        margin-left: 60px;
+    }
+
+    .list__conteiner {
+        width: 160px;
+    }
+
+    .footer__text {
+        text-align: right;
+    }
+}
+
+/* --- Max --- */
+@media (max-width: 750px) {
+
+    .contact,
+    .list__conteiner,
+    .footer__conteiner {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+/* ============================================= */
+/* === Tipografia === */
+.intro__title,
+.intro__paragraph,
+.header__button,
+.card__title {
+    color: var(--very-dark__cyan);
+}
+
+button:hover,
+a:hover,
+.logo:hover,
+.footer__logo:hover {
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+* {
+    font-family: 'Open sans', sans-serif;
+    font-weight: 400;
+}
+
+button {
+    font-weight: 700;
+}
+
+h1,
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+/* === 360 até 1400 === */
+.intro__button,
+.text__paragraph,
+.footer__text {
+    font-size: 0.9em;
+}
+
+.header__button,
+.intro__paragraph {
+    font-size: 1em;
+}
+
+.text__title,
+.card__title {
+    font-size: 1.5em;
+}
