@@ -1,0 +1,156 @@
+.count {
+  background: hsl(219, 85%, 26%);
+  border-radius: 4px;
+  color: hsl(0, 0%, 100%);
+  padding: 4px 8px;
+}
+
+.alinhamento {
+  padding-top: 10px;
+  margin: auto;
+  width: 95%;
+}
+
+.img {
+  height: 40px;
+}
+
+.icon-check {
+  background-color: hsl(1, 90%, 64%);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 2px;
+}
+
+.notify span {
+  margin-right: 3px;
+}
+
+.notify {
+  margin-bottom: 6px;
+}
+
+.alinhamento,
+.card,
+.time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.time {
+  width: 45px;
+}
+
+* {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: hsl(219, 12%, 42%);
+  font-weight: 500;
+}
+
+.title,
+.name,
+.content,
+.group, .count {
+  font-weight: 800;
+}
+
+.title,
+.name {
+  color: hsl(224, 21%, 14%);
+}
+
+.group {
+  color: blue;
+}
+
+.title {
+  font-size: 1.2em;
+}
+
+.count {
+  font-size: 0.75em;
+}
+
+.name,
+.content,
+.notification,
+.time,
+.group {
+  font-size: 0.8em;
+}
+
+body {
+  background-color: hsl(205, 33%, 90%);
+}
+
+main {
+  width: 580px;
+  background-color: hsl(0, 0%, 100%);
+  margin: 100px auto;
+  border-radius: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 65px;
+  margin-bottom: 10px;
+}
+
+.conteiner__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 160px;
+}
+
+.card__conteiner {
+  margin: 0 auto 10px auto;
+  padding-bottom: 10px;
+  width: 95%;
+}
+
+.card__conteiner--unread {
+  background-color: hsl(211, 68%, 94%);
+  border-radius: 8px;
+  margin: 0 auto 20px auto;
+  padding-top: 10px;
+}
+
+.card {
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: auto;
+  width: 95%;
+}
+
+.img {
+  margin-right: 15px;
+}
+
+.mesage {
+  border: 1px solid hsl(205, 33%, 90%);
+  margin-top: 10px;
+}
+
+.mesage__text {
+  font-size: 0.85em;
+  padding-bottom: 13px;
+}
+
+.card__img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+}
+
+.card__img-coment {
+  width: 35px;
+  height: 35px;
+}/*# sourceMappingURL=main.css.map */
