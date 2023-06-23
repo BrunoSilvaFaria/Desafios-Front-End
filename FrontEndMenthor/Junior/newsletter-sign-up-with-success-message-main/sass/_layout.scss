@@ -63,7 +63,10 @@ main{
 .sucess {
     @include card;
     display: none;
-    margin: auto;
+    position: absolute;
+    top: 315px;
+    left: 50%;
+    margin-left: -180px;
     width: 100%;
     max-width: 360px;
     height: 315px;
