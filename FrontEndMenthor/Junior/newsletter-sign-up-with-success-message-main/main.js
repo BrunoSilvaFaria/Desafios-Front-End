@@ -11,7 +11,7 @@ button.addEventListener('click', (e) => {
 
     if (res) {
         document.querySelector('.main').style.display = 'none';
-        document.querySelector('.sucess').style.display = 'block';
+        document.querySelector('.sucess').style.display = 'flex';
         document.querySelector('.label--error').style.display = 'none'
         input.classList.remove('input--error');
     } else {
