@@ -1,23 +1,71 @@
 @import './core';
-.card {
-
+body{
+    background-color: $light-grayish-blue-secondary;
 }
-.alinhamento {
-}
-.img {
-    .img__item {
-	}
-}
-.notify {
-}
-.name {
-}
-.content {
+// === Main ===
+main{
+    width: 580px;
+    background-color: $white;
+    margin: 100px auto;
+    border-radius: 20px;
 }
 
-.time {
-
-	.time__count {
-	
-    }
+// === Header ===
+.header{
+    @include display;
+    height: 65px;
+    margin-bottom: 10px
 }
+// === Title ===
+.conteiner__title {
+    @include display;
+    width: 160px;
+}
+// --- Card ---
+
+.card__conteiner {
+    margin: 0 auto 10px auto;
+    padding-bottom: 10px;
+    width: 95%;
+}
+.card__conteiner--unread {
+    background-color: $light-grayish-blue-primary;
+    border-radius: 8px;
+    margin: 0 auto 20px auto;
+    padding-top: 10px;
+}
+
+.card{
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: auto;
+    width: 95%;
+}
+
+.img{
+    margin-right: 15px;
+}
+
+.mesage{
+    border: 1px solid $light-grayish-blue-secondary;
+    margin-top: 10px;
+}
+.mesage__text{
+    font-size: 0.85em;
+    padding-bottom: 13px;
+}
+
+.card__img{
+    @include display;
+    width: 95%;
+    margin: auto;
+}
+
+.card__img-coment{
+    width: 35px;
+    height: 35px;
+}
+
+
+
+
