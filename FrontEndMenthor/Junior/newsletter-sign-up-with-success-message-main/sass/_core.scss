@@ -9,3 +9,8 @@ $white: hsl(0, 0%, 100%);
     display: flex;
     align-items: center;
 }
+
+@mixin card{
+    border-radius: 20px;
+    background-color: $white;
+}
