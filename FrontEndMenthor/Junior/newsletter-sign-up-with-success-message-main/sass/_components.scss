@@ -40,6 +40,7 @@
     font-weight: 400;
     font-size: 16px;
 }
+
 .button{
     color: $white;
 }
@@ -49,6 +50,16 @@
 
 .paragraph{
     line-height: 1.4em;
+}
+
+.sucess{
+    .title{ font-size: 2.6em;}
+    .paragraph,
+    .button{ font-size: 0.85em;}
+    .email{
+        font-size: 0.95em;
+        font-weight: bold;
+    }
 }
 
 .label{
