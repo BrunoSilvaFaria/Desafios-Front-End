@@ -62,9 +62,11 @@ main{
 // --- Sucess ---
 .sucess {
     @include card;
+    display: none;
     margin: auto;
-    margin-top: 50px;
+    width: 100%;
     max-width: 360px;
+    height: 315px;
     .paragraph { margin-bottom: 30px;}
 
 
