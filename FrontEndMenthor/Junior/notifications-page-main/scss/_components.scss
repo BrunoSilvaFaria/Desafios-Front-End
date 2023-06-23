@@ -1,0 +1,84 @@
+@import './core';
+// --- Count ---
+.count {
+    background: $blue;
+    border-radius: 4px;
+    color: $white;
+    padding: 4px 8px;
+}
+// --- Alinhamento ---
+.alinhamento {
+    padding-top: 10px;
+    margin: auto;
+    width: 95%;
+}
+
+// --- Img ---
+.img {
+    height: 40px;
+}
+
+// --- Texts ---
+.icon-check{
+    background-color: $red;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 2px;
+}
+.notify span{
+    margin-right: 3px;
+}
+
+.notify{
+    margin-bottom:  6px;
+}
+
+.alinhamento,
+.card,
+.time{
+    @include display;
+}
+
+.time{
+    width: 45px;
+}
+
+// === Tipografia ===
+// --- Cores, Fontes e Peso ---
+*{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: $dark-grayish-blue;
+    font-weight: 500;
+}
+
+.title,
+.name,
+.content,
+.group, .count{
+    font-weight: 800;
+}
+
+.title,
+.name{
+    color: $very-dark-blue;
+}
+
+.group{
+    color: blue;
+}
+// --- Tamanho ---
+.title{
+    font-size: 1.2em;
+}
+.count{
+    font-size: 0.75em;
+}
+.name,
+.content,
+.notification,
+.time,
+.group{
+    font-size: 0.8em;
+}
