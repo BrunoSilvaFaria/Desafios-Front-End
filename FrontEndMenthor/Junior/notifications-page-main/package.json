@@ -1,0 +1,14 @@
+{
+  "name": "notifications-page-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Notifications page coding challenge](./design/desktop-preview.jpg)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "commit-msg-linter": "^1.0.0"
+  }
+}
