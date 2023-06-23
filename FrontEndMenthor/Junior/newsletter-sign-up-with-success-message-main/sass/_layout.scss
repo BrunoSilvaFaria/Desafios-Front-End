@@ -1,5 +1,9 @@
 @import './core';
 // --- Components ---
+body{
+    background-color: $dark-slate-grey;
+}
+
 .conteiner{
     width: 90%;
     max-width: 400px;
@@ -24,12 +28,9 @@
         margin: auto;
     }
 }
-body{
-    background-color: $dark-slate-grey;
-}
+// --- Main ---
 main{
-    border-radius: 20px;
-    background-color: $white;
+    @include card;
     padding-bottom: 20px;
 }
 
@@ -58,6 +59,30 @@ main{
     }
 }
 
+// --- Sucess ---
+.sucess {
+    @include card;
+    margin: auto;
+    margin-top: 50px;
+    max-width: 360px;
+    .paragraph { margin-bottom: 30px;}
+
+
+    .button { 
+        width: 100%;
+        padding: 12px;
+    }
+}
+.sucess__conteiner{
+    width: 85%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+
+
+
+// --- Tipografia ---
 .title,
 .paragraph{
     margin-bottom: 20px;
