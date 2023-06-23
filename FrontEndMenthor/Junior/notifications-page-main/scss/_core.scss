@@ -8,4 +8,8 @@ $grayish-blue: hsl(219, 14%, 63%);
 $dark-grayish-blue: hsl(219, 12%, 42%);
 $very-dark-blue: hsl(224, 21%, 14%);
 
-@mixin display{}
+@mixin display{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
