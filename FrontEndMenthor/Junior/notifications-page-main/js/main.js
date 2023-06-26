@@ -91,6 +91,13 @@ xmlhttp.onreadystatechange = function() {
                 notification[i].appendChild(span);
                 span.classList.add('group');
                 span.innerHTML = myObj[i].group;
+            }
+            
+            //  Verificando se é content
+            if (myObj[i].content !== '') {
+                notification[i].appendChild(span);
+                span.classList.add('content');
+                span.innerHTML = myObj[i].content;
             } 
 
             //  Verificando se é mensagem privada
