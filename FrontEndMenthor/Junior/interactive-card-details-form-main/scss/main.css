@@ -1,0 +1,169 @@
+.display {
+  margin-top: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  border: 1px solid hsl(270, 3%, 87%);
+  margin-bottom: 20px;
+  padding: 10px 10px 10px 20px;
+}
+
+input[type=month],
+input[type=datetime] {
+  width: 90px;
+}
+
+.cvc {
+  width: 160px;
+}
+
+@media (max-width: 450px) {
+  input[type=month],
+  input[type=datetime] {
+    width: 75px;
+  }
+  .cvc {
+    width: 120px;
+  }
+}
+.button {
+  background: hsl(278, 68%, 11%);
+}
+
+input,
+.button {
+  border-radius: 6px;
+  max-width: 360px;
+  height: 45px;
+  width: 100%;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+* {
+  color: hsl(278, 68%, 11%);
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.output,
+.button {
+  color: hsl(270, 3%, 87%);
+}
+
+label,
+button {
+  font-size: 0.9em;
+}
+
+.name-output {
+  text-transform: uppercase;
+}
+
+.output {
+  font-size: 0.75rem;
+}
+
+.alinhamento,
+.form {
+  width: 90%;
+  margin: auto;
+}
+
+.display {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-output {
+  width: 90%;
+  margin: auto;
+  height: 240px;
+  background: url("../images/bg-main-desktop.png") no-repeat;
+  width: 100%;
+}
+
+.card {
+  width: 280px;
+  height: 150px;
+}
+
+.card__front {
+  background: url("../images/bg-card-front.png") no-repeat;
+  background-size: contain;
+}
+
+.card__back {
+  background: url("../images/bg-card-back.png") no-repeat;
+  background-size: contain;
+  z-index: 0;
+}
+
+@media (max-width: 375px) {
+  .card-output {
+    position: absolute;
+    width: 90%;
+    margin: auto;
+    height: 240px;
+    background: url("../images/bg-main-mobile.png") no-repeat;
+    width: 100%;
+  }
+  .card {
+    width: 280px;
+    height: 150px;
+  }
+  .card__front {
+    position: relative;
+    bottom: 65px;
+    background: url("../images/bg-card-front.png") no-repeat;
+    background-size: contain;
+    z-index: 1;
+  }
+  .card__back {
+    position: relative;
+    left: 55px;
+    margin-top: 30px;
+    background: url("../images/bg-card-back.png") no-repeat;
+    background-size: contain;
+    z-index: 0;
+  }
+  main {
+    position: relative;
+    top: 310px;
+  }
+}
+.card__logo {
+  margin-top: 15px;
+  height: 30px;
+  width: 50px;
+}
+
+.cv-output {
+  position: relative;
+  top: 65px;
+  left: 215px;
+}
+
+.number-output {
+  margin-top: 30px;
+}
+
+form {
+  max-width: 400px;
+}
+
+@media (min-width: 650px) {
+  .main__display {
+    display: flex;
+    align-items: center;
+  }
+}/*# sourceMappingURL=main.css.map */

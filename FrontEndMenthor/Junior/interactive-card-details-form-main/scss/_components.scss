@@ -1,1 +1,79 @@
 @import './core';
+
+// === display ===
+.display{
+    margin-top: 15px;
+}
+// === Inputs Label ===
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+input{
+    border: 1px solid $light-grayish-violet;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 20px;
+}
+
+
+input[type=month],
+input[type=datetime]{
+    width: 90px;
+}
+
+.cvc{
+    width: 160px;
+}
+@media (max-width: 450px){
+    input[type=month],
+    input[type=datetime]{
+        width: 75px;
+    }
+
+    .cvc{
+        width: 120px;
+    }
+}
+
+// === Button ===
+.button{
+    background: $very-dark-violet;
+}
+
+// === Input e Button ===
+input,
+.button{
+    border-radius: 6px;
+    max-width: 360px;
+    height: 45px;
+    width: 100%;
+}
+
+// --- Estados ---
+.button:hover{
+    cursor: pointer;
+}
+// --- Tipofrafia ---
+*{
+    color: $very-dark-violet;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.output,
+.button{
+    color: $light-grayish-violet;
+}
+
+label,
+button{
+    font-size: 0.9em;
+}
+
+.name-output{
+    text-transform: uppercase;
+}
+.output{
+    font-size: 0.75rem;
+}

@@ -1,1 +1,91 @@
 @import './core';
+// === components ===
+.alinhamento,
+.form{
+    @include alinhamento;
+}
+.display{
+    @include display;
+    justify-content: space-between;
+}
+
+// === Card ===
+.card-output{
+    @include alinhamento;
+    height: 240px;
+    background: url('../images/bg-main-desktop.png') no-repeat;
+    width: 100%;
+}
+.card{
+    width: 280px;
+    height: 150px;
+}
+.card__front{
+    background: url('../images/bg-card-front.png') no-repeat;background-size: contain;
+}
+.card__back{
+    background: url('../images/bg-card-back.png') no-repeat;background-size: contain;
+    z-index: 0;
+}
+
+@media (max-width: 375px) {
+    .card-output{
+        position: absolute;
+        @include alinhamento;
+        height: 240px;
+        background: url('../images/bg-main-mobile.png') no-repeat;
+        width: 100%;
+    }
+    .card{
+        width: 280px;
+        height: 150px;
+    }
+    .card__front{
+        position: relative;
+        bottom: 65px;
+        background: url('../images/bg-card-front.png') no-repeat;background-size: contain;
+        z-index: 1;
+    }
+    .card__back{
+        position: relative;
+        left: 55px;
+        margin-top: 30px;
+        background: url('../images/bg-card-back.png') no-repeat;background-size: contain;
+        z-index: 0;
+}
+// === Main ===
+    main{
+        position: relative;
+        top: 310px;
+    }
+    
+}
+
+.card__logo{
+    margin-top: 15px;
+    height: 30px;
+    width: 50px;
+}
+
+.cv-output{
+    position: relative;
+    top: 65px;
+    left: 215px;
+}
+.number-output{
+    margin-top: 30px;
+}
+
+// === Form ===
+form{
+    max-width: 400px;
+}
+
+
+@media (min-width: 650px){
+    .main__display{
+        @include display;
+    }
+}
+
+
