@@ -98,8 +98,9 @@
 .name,
 .content,
 .notification,
-.time {
-  font-size: 0.8em;
+.time,
+.group {
+  font-size: 0.9rem;
 }
 
 body {
@@ -163,6 +164,11 @@ main {
   display: none;
 }
 
+@media (max-width: 800px) {
+  .mesage__text {
+    width: 90%;
+  }
+}
 .mesage__text {
   font-size: 0.85em;
   padding: 0 0px 13px 0px;

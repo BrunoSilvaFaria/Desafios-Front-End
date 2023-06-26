@@ -56,7 +56,11 @@ main{
     margin-top: 10px;
     display: none;
 }
-
+@media (max-width: 800px){
+    .mesage__text{
+        width: 90%;
+    }
+}
 .mesage__text{
     font-size: 0.85em;
     padding: 0 0px 13px 0px;
