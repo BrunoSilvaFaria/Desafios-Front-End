@@ -45,8 +45,23 @@
   justify-content: flex-start;
 }
 
-.mark:hover {
+.mark:hover,
+.name:hover,
+.content:hover,
+.group:hover,
+.card__post-coment:hover,
+.mesage:hover {
   cursor: pointer;
+}
+
+.mark:hover,
+.name:hover,
+.content:hover {
+  color: hsl(219, 85%, 26%);
+}
+
+.mesage:hover {
+  background: hsl(211, 68%, 94%);
 }
 
 * {
@@ -58,7 +73,8 @@
 .title,
 .name,
 .content,
-.group, .count {
+.group,
+.count {
   font-weight: 800;
 }
 
@@ -82,8 +98,7 @@
 .name,
 .content,
 .notification,
-.time,
-.group {
+.time {
   font-size: 0.8em;
 }
 
@@ -92,7 +107,8 @@ body {
 }
 
 main {
-  width: 580px;
+  width: 100%;
+  max-width: 580px;
   background-color: hsl(0, 0%, 100%);
   margin: 100px auto;
   border-radius: 20px;

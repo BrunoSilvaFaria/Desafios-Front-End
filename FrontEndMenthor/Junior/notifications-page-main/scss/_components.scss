@@ -47,8 +47,22 @@
 }
 
 // === Estados ===
-.mark:hover{
+.mark:hover,
+.name:hover,
+.content:hover,
+.group:hover,
+.card__post-coment:hover,
+.mesage:hover{
     cursor: pointer;
+}
+
+.mark:hover,
+.name:hover,
+.content:hover{
+    color: $blue;
+}
+.mesage:hover{
+    background: $light-grayish-blue-primary;
 }
 
 // === Tipografia ===
@@ -62,7 +76,8 @@
 .title,
 .name,
 .content,
-.group, .count{
+.group, 
+.count{
     font-weight: 800;
 }
 
@@ -81,10 +96,10 @@
 .count{
     font-size: 0.75em;
 }
+
 .name,
 .content,
 .notification,
-.time,
-.group{
+.time{
     font-size: 0.8em;
 }

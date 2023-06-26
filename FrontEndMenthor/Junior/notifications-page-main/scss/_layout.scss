@@ -4,7 +4,8 @@ body{
 }
 // === Main ===
 main{
-    width: 580px;
+    width: 100%;
+    max-width: 580px;
     background-color: $white;
     margin: 100px auto;
     border-radius: 20px;
@@ -55,10 +56,10 @@ main{
     margin-top: 10px;
     display: none;
 }
+
 .mesage__text{
     font-size: 0.85em;
     padding: 0 0px 13px 0px;
-
 }
 
 .card__post{
