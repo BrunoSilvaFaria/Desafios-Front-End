@@ -42,6 +42,10 @@ main{
     width: 95%;
 }
 
+.card-js:last-child{
+    padding-bottom: 2px;
+}
+
 .img{
     margin-right: 15px;
 }
@@ -49,19 +53,24 @@ main{
 .mesage{
     border: 1px solid $light-grayish-blue-secondary;
     margin-top: 10px;
+    display: none;
 }
 .mesage__text{
     font-size: 0.85em;
-    padding-bottom: 13px;
+    padding: 0 0px 13px 0px;
+
 }
 
-.card__img{
+.card__post{
     @include display;
     width: 95%;
     margin: auto;
 }
+.card__post-size{
+    width: 90%;
+}
 
-.card__img-coment{
+.card__post-coment{
     width: 35px;
     height: 35px;
 }

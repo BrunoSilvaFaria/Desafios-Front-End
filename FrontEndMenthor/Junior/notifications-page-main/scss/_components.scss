@@ -24,10 +24,11 @@
     width: 6px;
     height: 6px;
     border-radius: 50%;
-    display: inline-block;
+    display: none;
     margin-bottom: 2px;
 }
-.notify span{
+.notify span,
+.time__count{
     margin-right: 3px;
 }
 
@@ -42,7 +43,12 @@
 }
 
 .time{
-    width: 45px;
+    justify-content: flex-start;
+}
+
+// === Estados ===
+.mark:hover{
+    cursor: pointer;
 }
 
 // === Tipografia ===
