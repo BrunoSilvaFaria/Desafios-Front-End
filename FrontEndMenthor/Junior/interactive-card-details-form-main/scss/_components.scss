@@ -11,7 +11,6 @@ label{
 }
 input{
     border: 1px solid $light-grayish-violet;
-    margin-bottom: 20px;
     padding: 10px 10px 10px 20px;
 }
 
@@ -27,11 +26,11 @@ input[type=datetime]{
 @media (max-width: 450px){
     input[type=month],
     input[type=datetime]{
-        width: 75px;
+        width: 80px;
     }
 
     .cvc{
-        width: 120px;
+        width: 145px;
     }
 }
 
@@ -48,10 +47,32 @@ input,
     height: 45px;
     width: 100%;
 }
+.input__conteiner{
+    margin-bottom: 20px;
+}
+// === Error ===
+.span-error{
+    color: $red;
+    font-size: 0.73em;
+    margin-top: 5px;
+    width: 145px;
+}
+
+.span-error--value,
+.span-error--num,
+.span-error--month,
+.span-error--year,
+.span-error--digi{
+    display: none;
+}
 
 // --- Estados ---
 .button:hover{
     cursor: pointer;
+}
+
+input:hover{
+    border-color: $border;
 }
 // --- Tipofrafia ---
 *{
