@@ -32,6 +32,7 @@ function verificaLetra(input, range, rangeBorda) {
     if (!onlyNumbers.test(input.value)) { 
         border(rangeBorda, true);
         spanLetra[range].style.display = 'block';
+        input.value = '';
     } else {
         border(rangeBorda, false);
         spanLetra[range].style.display = 'none';
@@ -43,6 +44,7 @@ function verificaNum(input, range, rangeBorda) {
     if (!onlyNumbers.test(input.value)) { 
         border(rangeBorda, true);
         spanNum[range].style.display = 'block';
+        input.value = '';
     } else {
         border(rangeBorda, false);
         spanNum[range].style.display = 'none';
@@ -54,6 +56,7 @@ function verificaMes(input, rangeBorda) {
     if (parseInt(input.value) < 1 || parseInt(input.value) > 12) {
         border(rangeBorda, true);
         spanMonth.style.display = 'block';
+        input.value = '';
     } else {
         border(rangeBorda, false);
         spanMonth.style.display = 'none';
@@ -67,6 +70,7 @@ function verificaAno(input, rangeBorda) {
     if (input.value < parseInt(anoAtual)) {
         border(rangeBorda, true);
         spanYear.style.display = 'block';
+        input.value = '';
     } else {
         border(rangeBorda, false);
         spanYear.style.display = 'none';
@@ -79,6 +83,7 @@ function verificaCv(input, rangeBorda) {
     if (input.value.length == 3) {
         border(rangeBorda, false);
         spanDigi.style.display = 'none';
+        input.value = '';;
     } else {
         border(rangeBorda, true);
         spanDigi.style.display = 'block';
@@ -93,9 +98,10 @@ function verificaValor(input, outPut, text, rangeBorda, rangeSpan, indice) {
         outPut.innerHTML = text;
         spanValue[rangeSpan].style.display = 'block';
         border(rangeBorda, true);
+        input.value = '';
     } else {
         spanValue[rangeSpan].style.display = 'none';
-        border(rangeBorda, false);
+        border(rangeBorda, false);      
     }
 }
 
@@ -107,7 +113,7 @@ function testaErros(input, output, text, rangeBorda, rangeSpan, indice) {
         switch (indice) {
             case 0:
                 verificaLetra(input, 0, 0);
-                break;
+                break
             case 1:
                 verificaNum(input, 0, 1);
                 break;
@@ -123,10 +129,13 @@ function testaErros(input, output, text, rangeBorda, rangeSpan, indice) {
             default:
                 return;
         }
-        
     }
 }
-
+// função para mostrar tela quando o formulário é preenchido
+function showTela() {
+    document.querySelector('.continue').style.display = 'block';
+    document.querySelector('.form').style.display = 'none';
+}
 // Função responsável por pegar / mostrar a entrada dos dados, tal como testar possiveis erros
 function show(indice, input) {
     switch (indice) {
@@ -154,6 +163,7 @@ function show(indice, input) {
             alert('Lamento, não foi selecionado nenhum input')
     }
 }
+
 // Ativa quando o input é alterado
 for (let i = 0; i < input.length; i++) {
     input[i].addEventListener("input", () => {
@@ -177,7 +187,7 @@ for (let i = 0; i < input.length; i++) {
 
 // Ativa quando o button é clicado 
 for (let i = 0; i < input.length; i++) {
-    button.addEventListener("click", (e) => {
+    button.addEventListener('click', (e) => {
         e.preventDefault();
         show(i, input[i]);
     })
