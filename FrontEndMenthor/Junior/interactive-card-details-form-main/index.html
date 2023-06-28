@@ -33,10 +33,7 @@
   <div class="main__display">
     <section class="card-output output">
       <div class="alinhamento">
-        <div class="card card__back">
-          <span class="cv-output output">000</span>
-        </div>
-        <div class="card card__front">
+                <div class="card card__front">
           <div class="alinhamento">
             <img src="./images/card-logo.svg" alt="" class="card__logo">
             <p class="number-output output">0000 0000 0000 0000</p>
@@ -50,6 +47,10 @@
             </div>
           </div>
         </div>
+        <div class="card card__back">
+          <span class="cv-output output">000</span>
+        </div>
+
       </div>
     </section>
     <main>
@@ -93,17 +94,23 @@
             </div>
           </div>
 
-          <button class="button button__form">Confirm</button>
+          <button type="submit" class="button button__form">Confirm</button>
         </div>
       </form>
+
+        <section class="continue">
+          <div class="alinhamento">
+            <img src="./images/icon-complete.svg" alt="Logo informando que o formulário foi preenchido">
+            <h1 class="title">Thank you!</h1>
+            <p>We've added your card details</p>
+            <button class="button button__continue">Continue</button>
+          </div>
+        </section>
     </main>
   </div>
 
   <!-- Completed state start -->
 
-  <!-- Thank you!
-  We've added your card details
-  Continue -->
 
   <script src="./main.js"></script>
 </body>
