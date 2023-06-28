@@ -17,22 +17,25 @@ input{
 
 input[type=month],
 input[type=datetime]{
-    width: 90px;
+    width: 80px;
 }
 
 .cvc{
     width: 160px;
+}
+
+@media (max-width: 650px){
+    .cvc{
+        width: 140px;
+    }
 }
 @media (max-width: 450px){
     input[type=month],
     input[type=datetime]{
         width: 80px;
     }
-
-    .cvc{
-        width: 145px;
-    }
 }
+
 
 // === Button ===
 .button{
