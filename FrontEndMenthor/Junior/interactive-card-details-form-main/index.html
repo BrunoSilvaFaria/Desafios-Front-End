@@ -59,12 +59,13 @@
           <div class="input__conteiner">
             <label for="name">Cardholder Name</label>
             <input type="text" name="name" id="name" placeholder="e.g. Jane Appleseed" class="input input-name" required>
+            <span class="span-error span-error--let">Somente letras</span>
             <span class="span-error span-error--value">Requer valor</span>
           </div>
 
           <div class="input__conteiner">
             <label for="cardNumber">Card Number</label>
-            <input type="number" name="cardNumber" id="cardNumber" placeholder="e.g. 1234 5678 9123 0000"
+            <input type="text" name="cardNumber" id="cardNumber" placeholder="e.g. 1234 5678 9123 0000"
               class="input input-num" required>
               <span class="span-error span-error--value">Requer valor</span>
               <span class="span-error span-error--num">Somente números</span>
@@ -85,7 +86,7 @@
             </div>
             <div class="input__conteiner">
               <label for="">CVC</label>
-              <input type="number" placeholder="e.g. 123" class="cvc input input-cv" required>
+              <input type="text" placeholder="e.g. 123" class="cvc input input-cv" required>
               <span class="span-error span-error--value">Requer valor</span>
               <span class="span-error span-error--num">Somente números</span>
               <span class="span-error span-error--digi">Somente 3 digitos</span>
