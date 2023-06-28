@@ -53,7 +53,6 @@ function verificaNum(input, range, rangeBorda) {
 function verificaMes(input, rangeBorda) {
     if (parseInt(input.value) < 1 || parseInt(input.value) > 12) {
         border(rangeBorda, true);
-        console.log('borda');
         spanMonth.style.display = 'block';
     } else {
         border(rangeBorda, false);
