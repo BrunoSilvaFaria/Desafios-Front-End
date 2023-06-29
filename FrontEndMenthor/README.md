@@ -30,7 +30,7 @@ https://github.com/BrunoSilvaFaria/Desafios-Front-End.git
 | [Interactive rating component](https://github.com/BrunoSilvaFaria/Desafios-Front-End/tree/main/FrontEndMenthor/Newbie/interactive-rating-component)|
 | [NFT preview card component](https://github.com/BrunoSilvaFaria/Desafios-Front-End/tree/main/FrontEndMenthor/Newbie/nft-preview-card-component)|
 | [Order summary component](https://github.com/BrunoSilvaFaria/Desafios-Front-End/tree/main/FrontEndMenthor/Newbie/order-summary-component)  |
-| [Profile card component](https://github.com/BrunoSilvaFaria/Desafios-Front-End/tree/main/FrontEndMenthor/Newbie/profile-card-component-) |
+| [Profile card component](https://github.com/BrunoSilvaFaria/Desafios-Front-End/tree/main/FrontEndMenthor/Newbie/profile-card-component) |
 | [QR Code Component](https://github.com/BrunoSilvaFaria/Desafios-Front-End/tree/main/FrontEndMenthor/Newbie/qr-code-component) |
 | [Single price grid component](https://github.com/BrunoSilvaFaria/Desafios-Front-End/tree/main/FrontEndMenthor/Newbie/single-price-component-master) |
 | [Stats preview card component](https://github.com/BrunoSilvaFaria/Desafios-Front-End/tree/main/FrontEndMenthor/Newbie/stats-preview-card-component)|
