@@ -6,7 +6,10 @@ Olá, seja bem vindo a mais uma resolução de desafio. Desta vez, resolvi o [Fo
 
 - [Desafio](#desafio)
   - [Screenshot](#screenshot)
-- [Meu processo](#meu-processo) - [Ferramentas](#ferramentas) - [O que eu aprendi](#aprendizado) -[Guia de estilo](#estilo)
+- [Meu processo](#meu-processo)
+- [Ferramentas](#ferramentas)
+- [O que eu aprendi](#aprendizado)
+- [Guia de estilo](#estilo)
 
 <a id="desafio">
     <h2>
@@ -53,6 +56,7 @@ Foi proposto recriar o seguinte site, fazendo o mais semelhante possível, a par
 - Padronização do CSS
 - Posicionamento dos elementos
 - SASS
+- Manipulação do DOM
 
 <a id="estilo">
 <h1>Guia de estilo</h1>
@@ -87,4 +91,4 @@ Foi proposto recriar o seguinte site, fazendo o mais semelhante possível, a par
 <h3> Fonte </h3>
 
 - Family: [Poppins](https://fonts.google.com/specimen/Poppins)
-    - Weights: 200, 400, 600
+  - Weights: 200, 400, 600
