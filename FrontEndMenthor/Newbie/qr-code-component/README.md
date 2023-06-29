@@ -1,56 +1,95 @@
-# Frontend Mentor - QR code component solution
-Esta é a minha solução para o desafio [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
+<h1>Frontend Mentor - QR code component</h1>
 
-## Contéudo
+Olá, seja bem vindo a mais uma resolução de desafio. Desta vez, resolvi o [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Sugestões e dicas são bem-vindas!
+
+<h2>Contéudo </h2>
 
 - [Desafio](#desafio)
-    - [Solução](#screenshot)
-    - [Demo](#demo)
-- [Processo de Desenvolvimento](#meu-processo)
-    - [Ferramentas](#ferramentas)
-    - [O que eu aprendi](#o-que-eu-aprendi)
-- [Referencias](#referencia)
+  - [Screenshot](#screenshot)
+- [Meu processo](#meu-processo) 
+- [Ferramentas](#ferramentas) 
+- [O que eu aprendi](#aprendizado) 
+- [Referência](#referencia) 
+- [Guia de estilo](#estilo)
 
-
-## Desafio
+<a id="desafio">
+    <h2>
+    Desafio
+    </h2>
+</a>
 Foi proposto recriar o seguinte site, fazendo o mais semelhante possível, a partir de um guia de estilo fornecido.
 
 ![](./design/desktop-design.jpg)
+![](./design/mobile-design.jpg)
 
-## Solução:
+<a id="screenshot">
+<h2> Screenshot da minha solução:</h2>
+</a>
 
-![](./design/solucao-desktop.png)
+![](./design/desktop-solução.jpg)
+![](./design/mobile-solução.jpg)
 
+<a id="meu-processo">
+<h2> Processo de desenvolvimento:</h2>
+</a>
 
-## Demo:
+<a id="ferramentas">
+<h3>Ferramentas</h3>
+</a>
 
-- [Solução do QR code component solution](https://brunosilvafaria.github.io/qr-code-component-main/)
-
-## Processo de desenvolvimento:
-- Definir a Estrutura HTML;
-- Estilizar Utilizando CSS;
-- Refatorar código (rever estilos e classes).
-
-### Ferramentas
-
-- HTML5
-- CSS3
-- Arquitetura BEM
-- Mobile-first
-- JS
+- [Adobe Color](https://color.adobe.com/pt/create/color-wheel)
+- [Arquitetura BEM](https://en.bem.info/methodology/css/)
+- [Atom](https://atom.io/)
+- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [FireFox](https://www.mozilla.org/pt-BR/firefox/new/)
+- [Font Awesome](https://fontawesome.com)
 - [Google Fonts](https://fonts.google.com)
-- [Atom](https://atom.io/) - Editor de texto
-- [Adobe Color](https://color.adobe.com/pt/create/color-wheel) - Paleta de cores
-- [FireFox](https://www.mozilla.org/pt-BR/firefox/new/) - Navegador utilizado para visualização e desenvolvimento do site
-- [SASS](https://sass-lang.com/) - Pré-processador CSS
-- [W3Schools](https://www.w3schools.com/) - Documentação.
+- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [Mobile-first](https://developer.mozilla.org/en-US/docs/Glossary/Mobile_First)
 
+<a id="aprendizado">
+<h3> O que eu aprendi:</h3>
+</a>
 
-### O que eu aprendi:
-
+- Agrupamento de elementos
+- Arquitetura BEM
 - Box shadown;
-- Agrupamento de elementos;
-- Disposição e alinhamento de itens.
+- Padronização do CSS
+- Posicionamento dos elementos
 
-## Referencias
+<a id="referencia">
+<h3> Referência:</h3>
+</a>
+
+<a id="estilo">
+<h1>Guia de estilo</h1>
+</a>
+
 - https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
+
+<h2> Layout </h2>
+
+- Mobile: 360px
+- Desktop: 1440px
+
+<h2> Cores </h2>
+
+<H3> Primárias </h3>
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+- Font size (paragraph): 15px
+
+<h2> Tipografia </h2>
+
+<h3> Body </h3>
+
+- Font size: 15px
+
+<h3> Fonte </h3>
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+    - Weights: 400, 700
+

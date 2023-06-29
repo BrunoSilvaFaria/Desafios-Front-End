@@ -29,3 +29,9 @@ White: hsl(0, 0%, 100%) // fff
 
 - Family: [Spartan](https://fonts.google.com/specimen/Spartan)
 - Weights: 400, 500, 700
+
+Frontend Mentor - Social proof section
+
+Esta é a minha solução para o desafio [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA).
+
+

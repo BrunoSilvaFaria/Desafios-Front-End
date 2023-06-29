@@ -1,6 +1,6 @@
-<h1>Frontend Mentor - Stats preview card component</h1>
+<h1>Frontend Mentor - Social proof section</h1>
 
-Olá, seja bem vindo a mais uma resolução de desafio. Desta vez, resolvi o [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Sugestões e dicas são bem-vindas!
+Olá, seja bem vindo a mais uma resolução de desafio. Desta vez, resolvi o [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA). Sugestões e dicas são bem-vindas!
 
 <h2>Contéudo </h2>
 
@@ -41,7 +41,6 @@ Foi proposto recriar o seguinte site, fazendo o mais semelhante possível, a par
 - [Font Awesome](https://fontawesome.com)
 - [Google Fonts](https://fonts.google.com)
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Mobile-first](https://developer.mozilla.org/en-US/docs/Glossary/Mobile_First)
 - [SASS](https://sass-lang.com/)
 
@@ -67,15 +66,14 @@ Foi proposto recriar o seguinte site, fazendo o mais semelhante possível, a par
 
 <H3> Primárias </h3>
 
-- Very dark blue (main background): hsl(233, 47%, 7%)
-- Dark desaturated blue (card background): hsl(244, 38%, 16%)
-- Soft violet (accent): hsl(277, 64%, 61%)
+- Very Dark Magenta: hsl(300, 43%, 22%)
+- Soft Pink: hsl(333, 80%, 67%)
 
 <h3> Neutras </h3>
 
-- White (main heading, stats): hsl(0, 0%, 100%)
-- Slightly transparent white (main paragraph): hsla(0, 0%, 100%, 0.75)
-- Slightly transparent white (stat headings): hsla(0, 0%, 100%, 0.6)
+- Dark Grayish Magenta: hsl(303, 10%, 53%)
+- Light Grayish Magenta: hsl(300, 24%, 96%)
+- White: hsl(0, 0%, 100%)
 
 <h2> Tipografia </h2>
 
@@ -85,8 +83,5 @@ Foi proposto recriar o seguinte site, fazendo o mais semelhante possível, a par
 
 <h3> Fonte </h3>
 
-- Family: [Inter](https://fonts.google.com/specimen/Inter)
-    - Weights: 400, 700
-
-- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
-    - Weights: 400
+- Family: [Spartan](https://fonts.google.com/specimen/Spartan)
+    - Weights: 400, 500, 700
