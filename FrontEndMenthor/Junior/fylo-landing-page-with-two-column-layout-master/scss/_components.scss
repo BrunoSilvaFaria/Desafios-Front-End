@@ -1,0 +1,60 @@
+@import './core';
+
+// === Tipografia ===
+// --- Fontes e Peso ---
+* {
+    font-family: $font-open;
+    font-weight: $font-open-regular;
+    color: $very-dark-blue;
+}
+
+h1,
+h2,
+h3,
+button,
+.menu__link{
+    font-family: $font-raleway;
+    font-weight: $font-raleway-semi;
+}
+
+.menu__link {
+    font-weight: $font-raleway-regular;
+}
+
+// --- Cores ---
+.link__icon-icon,
+.get__subtitle,
+.get__paragraph,
+.form__button,
+.contact__icon,
+.contact__link,
+.list__link,
+.redes__item span{
+    color: $light-grayish;
+}
+
+// --- Tamanho ---
+.link__icon-icon,
+.card__paragraph,
+.name{ font-size: 0.8em; }
+
+.job{ font-size: 0.7em; }
+
+.contact__icon,
+.redes__icon{ font-size: 1.3em; }
+.title{ font-size: 1.8em; }
+.subtitle{ font-size: 1.8em; }
+.paragraph{ font-size: 0.85em; }
+
+@media (max-width: 1150px) {
+    .title,
+    .subtitle,
+    .get__paragraph{ text-align: center; }
+}
+@media (min-width: 750px) {
+    .title{ font-size: 2.5em;}
+    .stay__subtitle{ font-size: 2.2em;}
+    .get__subtitle{ font-size: 2em;}
+    .paragraph{ font-size: 1.1em;}
+    .paragraphs{ font-size: 1em;}
+}

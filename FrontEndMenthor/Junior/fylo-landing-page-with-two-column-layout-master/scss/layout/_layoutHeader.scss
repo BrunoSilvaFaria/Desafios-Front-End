@@ -1,0 +1,38 @@
+.header {
+  margin: calc(#{$margin} * 1.7) auto calc(#{$margin} * 5) auto;
+}
+
+.header__logo {
+  height: 25px;
+  width: 90px;
+}
+
+.menu__item {
+  margin-right: calc(#{$margin} * 0.4);
+}
+.menu__link{
+  font-size: 0.95em;
+}
+
+.header,
+.menu{
+    @include display;
+}
+
+@media (min-width: 750px) {
+    .header {
+        margin: calc(#{$margin} * 1.7) auto calc(#{$margin} * 3) auto;
+    }
+
+    .header__logo {
+        height: 50px;
+        width: 150px;
+    }
+
+    .menu__item {
+        margin-right: calc(#{$margin}* 1.2);
+    }
+    .menu__link{
+      font-size: 1.1em;
+    }
+}

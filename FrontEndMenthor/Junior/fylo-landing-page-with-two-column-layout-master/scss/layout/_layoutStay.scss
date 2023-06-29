@@ -1,0 +1,130 @@
+@media (max-width: 750px) {
+    .stay__bg{
+        height: 900px;
+    }
+
+    .stay__curve{
+      background: url('../../images/bg-curve-mobile.svg');
+      background-position: top;
+      background-size: cover;
+      height: 120px;
+      width: 100%;
+      position: relative;
+    }
+
+    .section__img{
+      margin: auto auto calc(#{$margin} * 3.2) auto;
+    }
+}
+@media (max-width: 1150px){
+  .stay{
+    max-width: 600px;
+    margin: auto;
+  }
+
+  .stay__bg{
+    height: 960px;
+  }
+  .stay,
+  .card{
+    margin: auto;
+  }
+
+  .link{
+    margin: auto auto calc(#{$margin} * 1.5) auto;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .stay{
+    @include displaySection;
+  }
+
+  .stay__bg{
+  height: 530px;
+}
+}
+
+
+.stay__bg{
+  background: $light-grayish;
+  position: relative;
+}
+
+
+.stay__curve{
+  background: url('../../images/bg-curve-desktop.svg');
+  background-position: top;
+  background-size: cover;
+  height: 180px;
+  width: 100%;
+  position: relative;
+}
+
+.stay{
+  .stay__subtitle{
+    margin-bottom: $margin;
+  }
+  .stay__paragraph{
+    margin-bottom: calc(#{$margin} * 1.33);
+  }
+
+  .stay__paragraph:first-of-type{
+    margin-bottom: calc(#{$margin} * 0.7);
+  }
+  
+    .link{
+        display: block;
+        border-bottom: 2px solid $moderate-cyan;
+        margin-bottom: calc(#{$margin} * 1.5);
+        padding-bottom: 5px;
+        width: 175px;
+
+        .link__item{
+            color: $moderate-cyan;
+        }
+        .link__icon{
+            border-radius: 50%;
+            background-color: $moderate-cyan;
+            height: 20px;
+            width: 20px;
+        }
+    }
+
+
+    .card{
+        background: white;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        max-width: 360px;
+
+        .alinhamento{
+            width: 85%;
+        }
+        .quotes{
+            padding: 20px 0 15px 0;
+        }
+        .card__paragraph{
+            margin-bottom: calc(#{$margin} / 2);
+        }
+        .avatar{
+            @include display;
+            width: 185px;
+            padding-bottom: 20px;
+            .avatar__img{
+                width: 40px;
+                border-radius: 50%;
+            }
+            .avatar__conteiner{
+                .name{
+                    padding-bottom: 5px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+ 

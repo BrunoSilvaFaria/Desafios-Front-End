@@ -1,0 +1,53 @@
+@media (max-width: 750px) {
+  .form__input{
+   margin-bottom: calc(#{$margin} / 2);
+  }
+  .form__input,
+  .form__button{
+    width: 290px;
+  }
+
+  .section__img{
+    margin: auto auto calc(#{$margin} * 2.5) auto;
+  }
+}
+
+@media (max-width: 1150px) {
+  .all{
+    text-align: center;
+    width: 90%;
+    margin: auto auto calc(#{$margin} * 3) auto;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .all{
+    @include displaySection;
+  }
+}
+
+
+.all{
+  margin: auto auto calc(#{$margin} * 3) auto;
+  
+  .all__title,
+  .all__paragraph{
+    margin-bottom: $margin;
+  }
+
+  .form{
+    @include display;
+    flex-wrap: wrap;
+    max-width: 580px;
+    .form__button{
+      width: 200px;
+    }
+    .form__input{
+      padding-left: 20px;
+      width: 350px;
+    }
+  }
+}
+
+

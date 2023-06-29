@@ -1,0 +1,48 @@
+@import './layoutHeader';
+@import './layoutAll';
+@import './layoutStay';
+@import './layoutGet';
+@import './layoutFooter';
+// === Estruturas ===
+.alinhamento{
+    margin: auto;
+    width: 90%;
+    max-width: 1300px;
+}
+
+.section__conteiner{
+   max-width: 600px;
+}
+.section__img {
+    width: 90%;
+    max-width: 550px;
+}
+@media (min-width: 800px) and (max-width: 1190px) {
+    .section__img{
+        margin: auto;
+        margin-bottom: $margin * 2;
+    }
+    .section{
+        margin: auto;
+        max-width: 600px;
+    }
+}
+
+.form__input{
+    border: 1px solid $very-dark-blue;
+} 
+.form__button {
+    background: $bright-blue;
+}
+
+.form__input,
+.form__button{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    height: 45px;
+}
+
+.form__input,
+.form__button,
+.card{
+    border-radius: 5px;
+}

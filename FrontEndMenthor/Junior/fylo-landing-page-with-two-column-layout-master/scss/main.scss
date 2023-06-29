@@ -1,0 +1,10 @@
+// === Estrutura de pastas ===
+// _core.scss – contém variáveis,
+// _layout.scss – estilos estruturas
+// _components.scss – estilos para cada componente (button, form, tipografia) 
+// main.scss - recebe as importações
+@import './_components.scss';
+@import './_core.scss';
+@import './layout/_layout.scss';
+
+

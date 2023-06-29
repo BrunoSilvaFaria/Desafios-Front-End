@@ -1,0 +1,30 @@
+// === Cores === 
+$very-dark-blue: hsl(243, 87%, 12%); 
+$desaturated-blue: hsl(238, 22%, 44%);
+$bright-blue: hsl(224, 93%, 58%);
+$moderate-cyan: hsl(170, 45%, 43%); 
+$light-grayish: #f8f8fe; 
+$light-gray: hsl(0, 0%, 75%);
+
+// === Fontes ===
+// --- Headers ---
+$font-raleway:'Raleway', sans-serif;
+$font-raleway-regular: 400;
+$font-raleway-semi: 700;
+// --- Body ---
+$font-open: 'OpenSans', sans-serif;
+$font-open-regular: 400;
+
+// === Display ===
+@mixin display {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin displaySection{
+    @include display;
+    flex-direction: row-reverse;
+}
+
+$margin: 30px;
