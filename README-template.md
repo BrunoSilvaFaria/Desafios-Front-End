@@ -39,6 +39,7 @@ Foi proposto recriar o seguinte site, fazendo o mais semelhante possível, a par
 - [Adobe Color](https://color.adobe.com/pt/create/color-wheel)
 - [Arquitetura BEM](https://en.bem.info/methodology/css/)
 - [Atom](https://atom.io/)
+- [commit-msg-linter](https://www.npmjs.com/package/git-commit-msg-linter)
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [FireFox](https://www.mozilla.org/pt-BR/firefox/new/)
 - [Font Awesome](https://fontawesome.com)
@@ -46,17 +47,18 @@ Foi proposto recriar o seguinte site, fazendo o mais semelhante possível, a par
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Mobile-first](https://developer.mozilla.org/en-US/docs/Glossary/Mobile_First)
-- [SASS](https://sass-lang.com/)
+- [npm](https://www.npmjs.com/)
 
 <a id="aprendizado">
 <h3> O que eu aprendi:</h3>
 </a>
 
 - Arquitetura BEM
+- Manipulação do dom
+- Padronização de commits do git
 - Padronização do CSS
 - Posicionamento dos elementos
 - SASS
-- Manipulação do DOM
 
 <a id="estilo">
 <h1>Guia de estilo</h1>
