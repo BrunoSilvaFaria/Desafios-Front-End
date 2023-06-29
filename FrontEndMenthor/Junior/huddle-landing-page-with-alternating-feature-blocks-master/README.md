@@ -1,4 +1,4 @@
-<h1>Frontend Mentor - 3-column preview card component</h1>
+<h1>Huddle landing page with alternating feature blocks</h1>
 
 Olá, seja bem vindo a mais uma resolução de desafio. Desta vez, resolvi o [Huddle landing page with alternating feature blocks challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100). Sugestões e dicas são bem-vindas!
 
